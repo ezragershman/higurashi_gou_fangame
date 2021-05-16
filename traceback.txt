@@ -1,15 +1,15 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'images/Characters/rena/re_sch_h1.png'>:
-  File "game/script.rpy", line 195, in script
-    re "Keiichi-kun! Good morning!"
-IOError: Couldn't find file 'images/Characters/rena/re_sch_h1.png'.
+While processing text tag {/fast} in u"{fast}Yes, yes.{/fast} He's always getting perky in the morning. It's actually a real pain. Wanna try saying hi to him?".:
+  File "game/script.rpy", line 283, in script
+    k "{fast}Yes, yes.{/fast} He's always getting perky in the morning. It's actually a real pain. Wanna try saying hi to him?"
+Exception: u'/fast' closes a text tag that isn't open.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 195, in script
-    re "Keiichi-kun! Good morning!"
+  File "game/script.rpy", line 283, in script
+    k "{fast}Yes, yes.{/fast} He's always getting perky in the morning. It's actually a real pain. Wanna try saying hi to him?"
   File "renpy/ast.py", line 715, in execute
     renpy.exports.say(who, what, *args, **kwargs)
   File "renpy/exports.py", line 1393, in say
@@ -42,29 +42,31 @@ Full traceback:
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 933, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 116, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/image.py", line 501, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "renpy/display/image.py", line 307, in wrap_render
-    rend = render(child, w, h, st, at)
+  File "renpy/display/screen.py", line 681, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 933, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 116, in renpy.display.accelerator.transform_render
+  File "renpy/display/layout.py", line 777, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/im.py", line 607, in render
-    return cache.get(self, render=True)
-  File "renpy/display/im.py", line 271, in get
-    surf = image.load()
-  File "renpy/display/im.py", line 688, in load
-    raise e
-IOError: Couldn't find file 'images/Characters/rena/re_sch_h1.png'.
+  File "renpy/display/layout.py", line 1184, in render
+    st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/layout.py", line 777, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/text/text.py", line 2034, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "renpy/text/text.py", line 607, in __init__
+    self.paragraphs = self.segment(text.tokens, style, renders, text)
+  File "renpy/text/text.py", line 998, in segment
+    raise Exception("%r closes a text tag that isn't open." % text)
+Exception: u'/fast' closes a text tag that isn't open.
 
 Windows-10-10.0.19041
 Ren'Py 7.4.4.1439
 Higurashi Gou 
-Sat May 15 23:17:50 2021
+Sun May 16 13:53:55 2021

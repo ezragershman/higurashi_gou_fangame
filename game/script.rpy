@@ -14,7 +14,7 @@ init -10 python:
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 #CHARACHTERS
-define e = Character("Eileen")
+
 define k = Character("Keichi")
 define m = Character("Mion")
 define re = Character("Rena")
@@ -32,7 +32,7 @@ image k school happy1 = "char:images/Characters/kei/k_sch_h1.png"
 image re school happy1 = "char:images/Characters/rena/re_sch_h1.png"
 
 #Mion
-image m school happy1 = "char:images/Characters/rena/mi_sch_h1.png"
+image m school happy1 = "char:images/Characters/mion/mi_sch_h1.png"
 
 
 
@@ -196,40 +196,40 @@ label start:
     voice rena_kei
     re "Keiichi-kun! Good morning!"
 
-    voice kei_grunt
+    voice kei_ano
     k "Why are you always here so early? You know you can sleep in every so often."
 
-    voice rena_hau
+    voice rena_cutelaugh
     re "But if I slept in, I would keep you waiting."
 
     voice kei_grunt
     k "I wouldn't wait for you."
 
-    voice rena_hau
+    voice rena_cryout
     re "W-wha...? Keiichi-kun is so mean!"
 
-    voice kei_grunt
+    voice kei_eh
     k "I'd leave you in the dust and kick you to the curb."
 
-    voice rena_hau
+    voice rena_squeal
     re "Keiichi-kun! But I always wait for you..."
 
-    voice kei_grunt
+    voice kei_ja
     k "Don't care. I'd ditch you in a heartbeat if you were late."
 
-    voice rena_hau
+    voice rena_cryout
     re "Why are you being so cold to me, Keiichi-kun? Why?"
 
     "I acted as if I was bothered by Rena, but in truth every morning I was excited to walk to school with her."
     "That being said, someone this fun to tease is a rare occurance. I have to take advantage of it when I can."
 
-    voice kei_grunt
+    voice kei_eh
     k "Just kidding. I would never ditch you."
 
-    voice rena_hau
+    voice rena_squeal
     re "Th-thanks."
 
-    voice kei_grunt
+    voice kei_ja
     k "Yep. I would definitely wait for you. No matter how long it took, I would wait for you forever, Rena-chan."
 
     voice rena_hau
@@ -239,21 +239,53 @@ label start:
 
     scene hi2_day with dissolve
     
-    show rena school happy1 at right
+    show re school happy1 at right with dissolve
 
     pause 2.0
+    show m school happy1 with dissolve
+
     voice mion_ohayo
     m "There you all are! You guys sure took your sweet time getting to me! Any longer and I would have left without you!"
     "Rena and I made eye contact, wondering, if perhaps, Mion had psychically been listening in on our previous conversation."
-    show mion school happy1 at left
+    
 
     voice kei_ja
     k "You're the one who is usually late Mion..."
+
+    pause 1.0
 
     "This perky girl is Sonozaki Mion. She's my senior and pretty much the leader of our class."
 
     voice rena_mion
     re "Good morning Mii-chan!"
+
+    voice mion_ohrena
+    m "Good morning Rena~!"
+
+    voice mion_ahque
+    m "Long time no see, Kei-chan! How many years has it been?"
+
+    voice kei_grunt
+    k "I was gone for two days, jeez! Besides, shouldn't I be asking that question to you, old man!?"
+
+    "Mion leaned in to get a good look at me."
+    
+    voice mion_mn
+    m "You seem to be the same Kei-chan as when you left a few days ago..."
+    pause 0.75
+    voice mion_ahque
+    m "Hm? What's this?"
+    pause 1.0
+    voice mion_laughcute
+    m "Kei-chan, I see that your buddy is quite perky this morning."
+
+    voice kei_ja 
+    k "Yes, yes.{fast} He's always getting perky in the morning. It's actually a real pain. Wanna try saying hi to him?"
+
+
+
+
+
 
     
 
