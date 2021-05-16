@@ -1,0 +1,124 @@
+Higurashi Gou
+Back
+History
+Skip
+Auto
+Save
+Q.Save
+Q.Load
+Prefs
+Start
+Load
+Preferences
+End Replay
+Main Menu
+About
+Help
+Version [config.version!t]\n
+Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]
+{#file_time}%A, %B %d %Y, %H:%M
+empty slot
+<
+{#auto_page}A
+{#quick_page}Q
+>
+Display
+Window
+Rollback Side
+Left
+Right
+Unseen Text
+After Choices
+Transitions
+Text Speed
+Auto-Forward Time
+Music Volume
+Sound Volume
+Test
+Voice Volume
+Mute All
+The dialogue history is empty.
+Keyboard
+Mouse
+Enter
+Advances dialogue and activates the interface.
+Space
+Advances dialogue without selecting choices.
+Arrow Keys
+Navigate the interface.
+Escape
+Accesses the game menu.
+Ctrl
+Skips dialogue while held down.
+Tab
+Toggles dialogue skipping.
+Page Up
+Rolls back to earlier dialogue.
+Page Down
+Rolls forward to later dialogue.
+Hides the user interface.
+Takes a screenshot.
+Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}.
+Left Click
+Middle Click
+Right Click
+Mouse Wheel Up\nClick Rollback Side
+Mouse Wheel Down
+Right Trigger\nA/Bottom Button
+Left Trigger\nLeft Shoulder
+Right Shoulder
+D-Pad, Sticks
+Start, Guide
+Y/Top Button
+Yes
+No
+Skipping
+Menu
+{i}*thwack*{/i}
+{i}*thwack*{/i}
+{i}*thwack*{/i}
+{i}*thwack*{/i}
+Where...?
+Where did those happy times go?
+{i}*thwack*{/i}
+{i}*thwack*{/i}
+How did it come to this...?
+Why did it come to this...?!
+{i}*thwack*{/i}
+{i}*thwack*{/i}
+I wish...that I could go back and change things...
+I wish that I could go back to before it all went wrong...
+Forgive me.
+The higurashi continued to sing their song.
+Keiichi! Wake up!
+I stirred from my slumber, yawning as I rubbed my eyes.
+Slowly, the nightmare I had just awoken from faded from my mind.
+{i}*grumble*{/i}
+I guess I should go down and eat breakfast. Rena-chan will be here soon to pick me up.
+My mom laid breakfast out on the table. Seaweed, pickled vegetables, raw egg, and grilled salmon.
+The platonic ideal of a Japanese breakfast. But my mother was not finished.
+To her, no breakfast would be complete without a steaming bowl of miso soup.
+She walked over with the soup, eyes shining, all while humming a little tune.
+She must be in a good mood today.
+You haven't skipped breakfast once since we moved to Hinamizawa. I'm so proud of you.
+Let me explain.
+My name is Maebara Keiichi.
+It has been three weeks since my family moved to the small village of Hinamizawa, and, honestly, I can't believe it belongs to the same country as the city I used to live in.
+In fact, I have a hard time believing that it belongs to the same time period...
+Yeah~ Your cooking is just that delicious!
+Back when we lived in the city, I was never a morning person. My parents were lucky if they saw me before I left for school.
+Boycotting breakfast was my way of fighting back against my parents, who forced me to go to cram school.
+Taking another bite of the grilled salmon, I sighed with satisfaction.
+If I could go back in time, I would slap myself for ignoring all the hard work my mom put into those breakfasts.
+Anyways, waking up early now was no issue, now that I no longer attended cram school.
+I guess the country air helps too.
+Keiichi! Isn't it almost time for you to meet up with Rena-chan? Hurry, hurry!
+Mom seemed to enjoy the fact that I was walking to school with a girl.
+That girl is named Ryuugu Rena. She is one of my classmates.
+Every day since moving to Hinamizawa, Rena has shown up in the morning to walk me to school.
+She and mom hit it off too. Rena would come over every so often with home-grown vegetables, and my mom was alwzys appreciative of her kindness.
+Keiichi! Rena-chan is waiting!
+I shoveled the remainder of my breakfast down my throat and hopped up from the table.
+After giving thanks to my mother, I ran out the door to meet up with Rena. As I left, my mom yelled out the door.
+Have a safe trip! Don't forget to thank Rena-Chan for the vegetables!
+Haha, will do!

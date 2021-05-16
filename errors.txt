@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 30: expected statement.
+    sound kei grunt = "audio/se/Voice Acting/Keichi/kei-grunt.ogg"
+                    ^
+
+Ren'Py Version: Ren'Py 7.4.4.1439
+Sat May 15 21:51:09 2021
