@@ -19,7 +19,8 @@ define k = Character("Keichi")
 define m = Character("Mion")
 define re = Character("Rena")
 define ri = Character("Rika")
-define s = Character("Satoko")
+define sa = Character("Satoko")
+define sh = Character("Shion")
 
 
 
@@ -30,7 +31,10 @@ image k school happy1 = "char:images/Characters/kei/k_sch_h1.png"
 
 #Rena
 image re school happy1 = "char:images/Characters/rena/re_sch_h1.png"
-
+image re school blush = "char:images/Characters/rena/re_sch_blsh.png"
+image re school hau = "char:images/Characters/rena/re_sch_hau.png"
+image re school kai = "char:images/Characters/rena/re_sch_kai.png"
+image re school2 eh = "char:images/Characters/rena/re_sch2_eh.png"
 #Mion
 image m school happy1 = "char:images/Characters/mion/mi_sch_h1.png"
 
@@ -56,19 +60,22 @@ label start:
     
     play music higurashi fadein 1.0 volume 0.66
     scene kei_room_black with slowdissolve
-    scene blood1
+    scene blood1 with vpunch
     play sound kswing
     play sound down
     "{i}*thwack*{/i}"
     pause 1.0
+    scene blood1 with vpunch
     play sound kswing
     play sound down
     "{i}*thwack*{/i}"
     pause 1.0 
+    scene blood1 with vpunch
     play sound kswing
     play sound down
     "{i}*thwack*{/i}"
     pause 1.0
+    scene blood1 with vpunch
     play sound kswing
     play sound down
     "{i}*thwack*{/i}"
@@ -79,11 +86,13 @@ label start:
     go?"
 
     pause 2.0
+    scene blood1 with vpunch
     play sound kswing
     play sound down
     "{i}*thwack*{/i}"
 
     pause 1.0 
+    scene blood1 with vpunch
     play sound kswing
     play sound down
     "{i}*thwack*{/i}"
@@ -93,11 +102,13 @@ label start:
     "Why did it come to this...?!"
     pause 1.0 
     
+    scene blood1 with vpunch
     play sound kswing
     play sound down
     "{i}*thwack*{/i}"
    
     pause 1.0 
+    scene blood1 with vpunch
     play sound kswing
     play sound down
     "{i}*thwack*{/i}"
@@ -191,7 +202,7 @@ label start:
 
     scene kei_house_sch with dissolve
 
-    show re school happy1
+    show re school happy1 with dissolve
 
     voice rena_kei
     re "Keiichi-kun! Good morning!"
@@ -199,6 +210,7 @@ label start:
     voice kei_ano
     k "Why are you always here so early? You know you can sleep in every so often."
 
+    show re school blush with dissolve
     voice rena_cutelaugh
     re "But if I slept in, I would keep you waiting."
 
@@ -211,12 +223,14 @@ label start:
     voice kei_eh
     k "I'd leave you in the dust and kick you to the curb."
 
+    show re school hau with dissolve
     voice rena_squeal
     re "Keiichi-kun! But I always wait for you..."
 
     voice kei_ja
     k "Don't care. I'd ditch you in a heartbeat if you were late."
 
+    show re school blush with dissolve
     voice rena_cryout
     re "Why are you being so cold to me, Keiichi-kun? Why?"
 
@@ -232,6 +246,7 @@ label start:
     voice kei_ja
     k "Yep. I would definitely wait for you. No matter how long it took, I would wait for you forever, Rena-chan."
 
+    show re school kai with dissolve
     voice rena_hau
     re "F...f...forever...? Hauuuuu~"
 
@@ -270,18 +285,188 @@ label start:
 
     "Mion leaned in to get a good look at me."
     
+    
+    show m school happy1:
+        ease .5 zoom 3.0 yoffset 1000 #moves right 100px, bottom 50px. set to 0 when you return later.
+        
+    
     voice mion_mn
     m "You seem to be the same Kei-chan as when you left a few days ago..."
     pause 0.75
+    show m school happy1:
+        ease .25 zoom 1 yoffset 0
     voice mion_ahque
     m "Hm? What's this?"
     pause 1.0
     voice mion_laughcute
     m "Kei-chan, I see that your buddy is quite perky this morning."
-
     voice kei_ja 
     k "Yes, yes.{fast} He's always getting perky in the morning. It's actually a real pain. Wanna try saying hi to him?"
 
+    show re school2 eh at right with dissolve                          
+    voice rena_cryout
+    re "Waa... What are you talking about? Mii-chan, Keiichi-kun?!"
+
+    "As usual, Rena couldn't keep up with our early morning, crude banter. I can't blame her though. Most people would also be confused by Mion's morning antics."
+
+    voice mion_do
+    m "So! How was your trip, Kei-chan? Did you find that think I asked you about?"
+    voice mion_laughcute
+    m "You know, that Western game catalog I wanted?"
+
+    voice kei_ano
+    k "I went back to Tokyo for a funeral, so I was busy the whole time. I didn't really have time to look around for toy shops."
+
+    voice mion_kyukyukyu
+    m "Tsk tsk tsk... Toy shops are nothing like hobby shops. Western stuff in general is impossible to find in these parts, ya know..."
+
+
+    scene school_d with dissolve
+    "Laughing as we walked we soon arrived at school."
+    "The students of Hinamizawa, all 30 of them, learn in a single classroom. It seems kind of strange at first, though I guess I got used to it pretty quickly."
+
+    scene school_hall with dissolve
+    "Mion reached out to open the classroom door but hesited for a moment."
+    show m school happy1 with dissolve
+    voice mion_laughcute
+    m "Well, well... hehehe... After you, Kei-chan..."
+
+    k "Are you trying to test my skills? I won't be defeated this time! Rena, get back!"
+
+    show re school2 eh at right with dissolve 
+    voice rena_squeal
+    re "Huh..? What's going on guys?"
+
+    #from here on out I am simply just scripting. Black screen as bg and no sounds or music
+    scene black 
+    stop music
+
+    k "Stay back Rena! Its her!! She's at it again!"
+
+    re "Eh..? By she, you mean...?"
+
+    k "Look over there! Your trap is way too obvious, Houjo Satoko!!!!"
+
+    "I pointed to the top of the doorway."
+    "Suspended in the crack at the top of the door was an eraser."
+    "If I had recklessly opened the door, it surely would have been my demise."
+
+    m "Guess the game is on again today."
+    m "Kei-chan keeps getting better and better at spotting Satoko-chan's traps."
+    m "You may even defeat her today."
+
+    k "No!" 
+    k "Satoko isn't this naive."
+    k "There must be some trick involved!"
+    "I leaned in to get a closer look at the eraser."
+    "To my eyes, it seemed to be an ordinary eraser."
+    "When I first transfered here, Satoko had trapped the doorway in a similar manner to the way she had today."
+    "However, the eraser that fell on my was not an ordinary eraser."
+    "Satoko had put rocks in the eraser to make it heavier. Thanks to her, I left my first day at a new school covered in bruises."
+
+    re "Why don't you just stand back and open the door?"
+    re "I wonder if you can dodge the eraser, I wonder...?"
+
+    k "Rena isn't thinking hard enough."
+    k "The eraser is only one piece of Satoko's master trap."
+    k "It is a red herring, a mere distraction meant to lure me into missing the greater threats!"
+
+    "Rena looked dumbfounded and Mion simply laughed."
+
+    m "Hehehe... I wonder who will win today...?"
+    m "Kei-chan is in top form this morning."
+
+    "I searched the rest of the door, looking for anything else that seemed remotely suspicious."
+    "That's when I spotted it: the glint of thumbtacks taped to the inside of the door-handle."
+    "Had I not found them, Satoko would surely have left me wounded and defeated, however, today was my day as the victor."
+
+    k "Aha! Checkmate Satoko!"
+    k "The real trap is the thumbtackes in the door-handle!"
+
+    "Pulling the end of the tape, I masterfully stripped away all of the thumbtacks from the inside of the door-handle."
+
+    k "You may have created a brilliant combination trap, but the mind of Maebara Keiichi is far superior!"
+
+    "Excited to see the look on Satoko's face when she realized I had won, I rushed into the classroom at full speed."
+
+    pause 1.0
+
+    "<i>*twang*</i>"
+
+    pause 1.0
+
+    "What was that?"
+
+    pause 1.0
+
+    k "Waaaaaaaaaaaahhhhhhhh!!!???"
+
+    pause 1.0 
+
+    "Is that a rope? Why is the ground heading towards me so fast?"
+
+    pause 1.0
+
+    "<b><i>*CRASH*</i></b>"
+
+    sa "Ohohohoho! What do we have here?"
+
+    "There she is. Houjo Satoko, the cheeky little trap mistress herself."
+
+    sa "Good morning to you, Keiichi-san."
+    sa "Causing a ruckus at this early hour?"
+    
+    k "I'm impressed, Satoko. This was a step up from your ordinary traps!"
+    
+    sa "I haven't the faintest idea as to what you are refering to."
+
+    k "Why, you little..."
+
+    "I tried to stand up, but I had landed on my knee when I fell. I grunted involuntarily at the pain."
+    "I felt a small hand rest and pat my head."
+
+    ri "Pain, pain, go away!~"
+
+    "The one petting my head is Furude Rika. Unlike Satoko, she is an absolute angel."
+
+    re "Good morning, Rika-chan!"
+
+    ri "Good morning, Rena!"
+    ri "Good morning, everyone!"
+
+    k "Wow, Rika-chan is a really good girl."
+    k "The exact opposite of a certain someone."
+
+    sa "Lies! Slander! Murder!"
+    sa "You have no proof to back up any of your heinous words..."
+
+    "I picked up Satoko by her uniform. She's only in middle school, so its like lifting a child."
+
+    k "You better beware Satoko."
+    k "My finger flick has been known to split plywood."
+
+    sa "Ehhhh! Unhand me you brute!!!"
+
+    k "Hey, quiet down, people will get the wrong idea!"
+
+    sa "Waaaaaaaaahhhh!"
+
+    "Satoko started crying."
+    "Rika, being the sweet girl she is, walked over to comfort her."
+
+    ri "No need to cry, Satoko!"
+    ri "Fight-on!"
+
+    ri "And next time, you will set up an even more amazing trap."
+    ri "Then you can squich Keiichi like a pancake!~ Nipah!~"
+
+    k "Gah!! Being betrayed by an angel hurts so much more..."
+
+    re "Hauuuu!!"
+    re "Satoko-chan is crying... but it's soo kyuute!!!"
+    re "I wanna take her home!! Hauuuuuuuuuuuu!!!!!"
+
+    #end scene
 
 
 
