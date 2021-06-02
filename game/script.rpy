@@ -15,12 +15,12 @@ init -10 python:
 # name of the character.
 #CHARACHTERS
 
-define k = Character("Keichi")
-define m = Character("Mion")
-define re = Character("Rena")
-define ri = Character("Rika")
-define sa = Character("Satoko")
-define sh = Character("Shion")
+define k = Character("Keichi", color="#8C6161")
+define m = Character("Mion", color="#0D7343")
+define re = Character("Rena", color="#F29C50")
+define ri = Character("Rika", color="#2D4473")
+define sa = Character("Satoko", color="#F2E96B")
+define sh = Character("Shion", color="#49BF88")
 
 
 
@@ -37,6 +37,8 @@ image re school kai = "char:images/Characters/rena/re_sch_kai.png"
 image re school2 eh = "char:images/Characters/rena/re_sch2_eh.png"
 #Mion
 image m school happy1 = "char:images/Characters/mion/mi_sch_h1.png"
+#satoko
+image sa school happy1 = "char:images/Characters/satoko/sa_sch_hap.png"
 
 
 
@@ -59,26 +61,23 @@ label start:
     
     
     play music higurashi fadein 1.0 volume 0.66
-    scene kei_room_black with slowdissolve
-    scene blood1 with vpunch
+    scene kei_room_black_blood with slowdissolve
+    scene blood1
     play sound kswing
     play sound down
-    "{i}*thwack*{/i}"
+    "{i}*thwack*{/i}" with vpunch
     pause 1.0
-    scene blood1 with vpunch
     play sound kswing
     play sound down
-    "{i}*thwack*{/i}"
+    "{i}*thwack*{/i}" with vpunch
     pause 1.0 
-    scene blood1 with vpunch
     play sound kswing
     play sound down
-    "{i}*thwack*{/i}"
+    "{i}*thwack*{/i}" with vpunch
     pause 1.0
-    scene blood1 with vpunch
     play sound kswing
     play sound down
-    "{i}*thwack*{/i}"
+    "{i}*thwack*{/i}" with vpunch
     pause 2.0 
 
     "Where...?"
@@ -86,32 +85,29 @@ label start:
     go?"
 
     pause 2.0
-    scene blood1 with vpunch
     play sound kswing
     play sound down
-    "{i}*thwack*{/i}"
+    "{i}*thwack*{/i}" with vpunch
 
     pause 1.0 
-    scene blood1 with vpunch
     play sound kswing
     play sound down
-    "{i}*thwack*{/i}"
+    "{i}*thwack*{/i}" with vpunch
 
     pause 2.0
     "How did it come to this...?"
     "Why did it come to this...?!"
     pause 1.0 
     
-    scene blood1 with vpunch
+
     play sound kswing
     play sound down
-    "{i}*thwack*{/i}"
+    "{i}*thwack*{/i}" with vpunch
    
     pause 1.0 
-    scene blood1 with vpunch
     play sound kswing
     play sound down
-    "{i}*thwack*{/i}"
+    "{i}*thwack*{/i}" with vpunch
 
     "I wish...that I could go 
     back and change things..."
@@ -123,7 +119,7 @@ label start:
 
     "Forgive me."
 
-    scene kei_room_black with slowdissolve
+    scene kei_room_black_blood with slowdissolve
     pause 3.0
     "The higurashi continued to sing their song."
 
@@ -337,19 +333,17 @@ label start:
     voice rena_squeal
     re "Huh..? What's going on guys?"
 
-    #from here on out I am simply just scripting. Black screen as bg and no sounds or music
-    scene black 
-    stop music
-
     k "Stay back Rena! Its her!! She's at it again!"
 
+    
     re "Eh..? By she, you mean...?"
 
     k "Look over there! Your trap is way too obvious, Houjo Satoko!!!!"
-
+    
     "I pointed to the top of the doorway."
     "Suspended in the crack at the top of the door was an eraser."
     "If I had recklessly opened the door, it surely would have been my demise."
+
 
     m "Guess the game is on again today."
     m "Kei-chan keeps getting better and better at spotting Satoko-chan's traps."
@@ -388,10 +382,10 @@ label start:
     k "You may have created a brilliant combination trap, but the mind of Maebara Keiichi is far superior!"
 
     "Excited to see the look on Satoko's face when she realized I had won, I rushed into the classroom at full speed."
-
+    scene classroom with dissolve
     pause 1.0
 
-    "<i>*twang*</i>"
+    "{i}*twang*{/i}"
 
     pause 1.0
 
@@ -407,7 +401,9 @@ label start:
 
     pause 1.0
 
-    "<b><i>*CRASH*</i></b>"
+    "{b}{i}*CRASH*{/i}{/b}"
+
+    show sa school happy1 at right with dissolve
 
     sa "Ohohohoho! What do we have here?"
 
@@ -519,24 +515,99 @@ label start:
     "Rena and Mion led me through the main shopping area of Hinamizawa."
     "We passed by kind villagers who all knew who I was, though they seemed to be complete strangers to me."
     "It was a beautiful day for a walk around the village. Days like these make me so glad that I live in Hinamizawa."
+    "Finally, Rena and Mion brought me to a steep outdoor stairway, appearing to lead to a shrine of some sort."
 
-    "Eventually, Rena and Mion brought me to a steep outdoor stairway, appearing to lead to a shrine of some sort."
+    re "Welcome to the Furude Shrine!"
+
+    m "Next Sunday there will be a huge festival here!"
+
+    k "Hmm...?{w} It seems a little early in the summer for a festival."
+
+    m "Well, the {i}Watanagashi{/i} is a festival celebrating the end of winter!"
+
+    "Mion and Rena continued up the stairs at a pace far faster than my own."
+    "Of course, they weren't carrying all of our food, so our experiences climbing up were likely uncomprable."
+    "From the top of the stairs, I could see Rena and Mion setting out a picnic blanket."
+    "As I reached them, they quickly and masterfully stole the bento from me and began setting out dishes left and right."
 
 
+    re "Eat up!"
+    m "And make sure you eat all of it, Kei-chan... You're in for a whole lot of pain if you make Rena cry."
+    k "I'm a man! I'll do my best, but... {w} this is a lot of food!"
+   
+    "Suddenly, from the shadows, a voice rang out."
 
+    sa "Well, well, well... What do we have here?"
+    "Suddenly, also at the top of the stairs were Satoko and Rika."
+    ri "Good morning, everyone!"
 
+    k "Good morning, Rika-chan! We are about to eat the gormet feast that Rena made us!"
 
+    sa "Yes, yes. I can see that."
+    sa "I just have a single question."
+    sa "Why have you laid out a tarp on our private property?"
 
+    k "Shrines are open to the public! You can't keep us from picnicking here!"
 
+    ri "Keiichi's right. Anyone is able to use this space."
 
+    k "As usual, Rika-chan is a really good child.{w}Come have a seat and dig in!"
 
+    ri "Thank you so much!"
 
+    sa "Hold on a second!!"
 
-
-
-
-
+    "Satoko puffed out her chest."
     
+    sa "Wherever am I supposed to sit!?"
+
+    k "Nowhere, because you're not getting any of this food!"
+
+    re "H-hold on Keiichi. It's fine~{w}You can have some too, Satoko-chan-"
+
+    k "Not!{fast} {p}I'm going to eat it all first!"
+    "I shoved as much food as I could into my mouth at once."
+    sa "Rikaaaaaa! Make him stop!"
+    "Rika walked over to Satoko and pet her on the head."
+    ri "Take these chopsticks! Use them wisely to defeat Keiichi!"
+
+    "Satoko sat herself down next to me, and before I knew it an impromptu eating contest begun between Satoko and me."
+    m "Boy, Kei-chan...You're pretty good at roping people into doing stuff..."
+    ri "We need to work fast to catch up, otherwise Satoko and Keiichi will eat it all!"
+    m "No kidding!{w}We old farts better get in on the action while we can!"
+
+    "Suddenly, it was an all out war for food."
+    "Any tricks and tactics were allowed."
+    "As I reached over the table to refill my plate, a pain suddenly hit my abdoman."
+    k "Hey, Satoko! Elbowing me is cheating!"
+    sa "Ohohoho! No hamburg steak for you!"
+
+    k "That's it... "
+    k "Houjou Satoko! The hour of your defeat has arrived!!!"
+    "Using my chopsticks as skewers, I deftly pierced as many meatballs as I could at once, keeping everyone, but mostly Satoko, from taking more."
+
+    sa "No! Not the meatballs!"
+
+    k "My, my, my. They're so plump and juicy... Abosultely phenominal!"
+
+    "Satoko looked in the bento, looking for an opprotunity to strike."
+    "Suddenly, before I knew it, she pounced, completely emptying a corner of one of the bento."
+
+    sa "While you were busy stuffing your face, I am going to finish these tamagoyaki!"
+    "She shoved them all in her mouth at once."
+    sa "Wow! They really melt in your mouth! So delicious..."
+
+    "I can't believe I only met my friends three weeks ago. It feels like we have known eachother forever."
+    "I was so lucky that my friends were treating me with care to help me, a transfer student, fit in their village."
+    "It was thanks to my friends that I learned how fun a simple day like today could be."
+    "It was thanks to my friends that I learned how tasty bento could be if you were eating with other people."
+    "If my everyday life could stay like this, then I would fo everything I could to keep it that way."
+    pause 2.0
+    "I truly am glad that I moved to Hinamizawa and met my friends."
+
+    #end scene, open tips menu
+
+
 
 
     scene black with slowdissolve
@@ -548,6 +619,6 @@ label start:
     return
 
 #label splashscreen:
-#    $renpy.movie_cutscene("op.ogv")
-#    return
+    #$renpy.movie_cutscene("op.mp4")
+    #return
 
