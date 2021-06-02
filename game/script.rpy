@@ -466,7 +466,71 @@ label start:
     re "Satoko-chan is crying... but it's soo kyuute!!!"
     re "I wanna take her home!! Hauuuuuuuuuuuu!!!!!"
 
-    #end scene
+    #end scene wipe to Keiichi's Bedroom
+
+    "Later that evening I recieved a knock on the door from Rena and Mion."
+
+    re "Hey Keiichi-kun!"
+    re "Tomorrow, Mii-chan and Rena were thinking that we'd like to show you all around Hinamizawa!"
+
+    m "You'll be joining us, of course, right, Kei-chan?"
+
+    k "I'll check my schedule."
+
+    m "But you're being invited by two girls!!!"
+
+    re "Keiichi-kun, I wonder are you free? Are you?"
+
+    k "I am."
+
+    m "Woah woah! Why do you treat Rena-chan differently than me!????"
+
+    "Mion and Rena left soon after extending the invitation."
+    "I thought it was really nice of them to give me a tour of Hinamizawa."
+    "I knew how to get to school pretty well, but the rest of the village was a complete mystery."
+    
+
+    "*The next day*"
+
+    "Mion and I met up at the usual spot. Rena, however, was nowhere to be seen."
+
+    k "Hey, Mion. Where's Rena?"
+    k "She's never late like this."
+
+
+    m "She said she was going to make bento for you, so she's probably pulling out all the stops."
+    m "Though I hope she doesn't go too much overboard."
+    "I could hardly imagine the immense intricacies of a bento that would cause Ryuugu Rena to be late, but sure enough I soon could see Rena's figure approaching."
+    "In her hands was a large wrapped bento."
+    "Wait, at a second glance it should be described as many bento stacked together!"
+    "How much food did Rena make?"
+    re "Sorry I'm late!"
+    re "Ok...1...2...3..."
+    "*thud*"
+    "Rena set down the large stack of bento, with a thud. Clearly, the food weighed a considerable amount."
+
+    m "Hey, Kei-chan. Rena really went all out making you this bento. It's a shame that a delicate girl like Rena would get exhausted carrying it all day."
+
+    k "I completely agree. I am a man of honor. I shall take responsibility for my actions and bear this load."
+
+    re "Keiichi-kun...? Mii-chan..? What do you mean take responsibility...? Hauu..."
+
+    "Fortunately for her, taking responsibility meant carrying around the food that Rena made."
+    "Rena and Mion led me through the main shopping area of Hinamizawa."
+    "We passed by kind villagers who all knew who I was, though they seemed to be complete strangers to me."
+    "It was a beautiful day for a walk around the village. Days like these make me so glad that I live in Hinamizawa."
+
+    "Eventually, Rena and Mion brought me to a steep outdoor stairway, appearing to lead to a shrine of some sort."
+
+
+
+
+
+
+
+
+
+
 
 
 
