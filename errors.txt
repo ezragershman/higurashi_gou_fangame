@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 41: image name components may not begin with a '-'.
-    image sa school happy1 - "char:images/Characters/satoko"
+File "game/gui.rpy", line 225: unexpected EOF while parsing
+    Borders(0), 50, 50, 50)
                            ^
 
 Ren'Py Version: Ren'Py 7.4.4.1439
-Wed Jun  2 16:04:45 2021
+Wed Jun  2 20:15:23 2021
