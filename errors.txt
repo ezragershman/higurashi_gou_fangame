@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/gui.rpy", line 225: unexpected EOF while parsing
-    Borders(0), 50, 50, 50)
-                           ^
+File "game/script.rpy", line 345: expected statement.
+    voice_keihua
+                ^
 
-Ren'Py Version: Ren'Py 7.4.4.1439
-Wed Jun  2 20:15:23 2021
+Ren'Py Version: Ren'Py 7.4.6.1668
+Sun Jun  6 15:03:43 2021

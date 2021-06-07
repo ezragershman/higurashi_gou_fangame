@@ -1,18 +1,18 @@
-Thu Jun  3 08:44:49 2021
+Sun Jun  6 14:31:08 2021
 Windows-10-10.0.19041
-Ren'Py 7.4.4.1439
+Ren'Py 7.4.6.1668
  
 
-Bootstrap to the start of init.init took 0.07s
+Bootstrap to the start of init.init took 0.06s
 Early init took 0.00s
-Loader init took 0.03s
+Loader init took 0.04s
 Loading error handling took 0.02s
-Loading script took 0.26s
-Loading save slot metadata. took 0.01s
+Loading script took 0.30s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.06s
-Loading analysis data took 0.02s
+Running init code took 0.05s
+Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
@@ -35,9 +35,9 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.14s
+Interface start took 0.13s
 
-Initializing gl renderer:
+Initializing gl2 renderer:
 primary display bounds: (0, 0, 3840, 2160)
 swap interval: 1 frames
 Windowed mode.
@@ -45,35 +45,20 @@ Vendor: 'NVIDIA Corporation'
 Renderer: 'GeForce MX330/PCIe/SSE2'
 Version: '4.6.0 NVIDIA 462.30'
 Display Info: None
-Number of texture units: 32
-Using shader environment.
-Using FBO RTT.
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Using gl renderer.
-Texture testing:
-- Hardware max texture size: 32768
-- 64px textures work.
-- 128px textures work.
-- 256px textures work.
-- 512px textures work.
-- 1024px textures work.
-- 2048px textures work.
-Screen sizes: virtual=(1280, 720) physical=(1624, 914) drawable=(1624, 914)
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Total time until interface ready: 1.47779393196s
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1.3676970005s
 Resetting cache.
-Bootstrap to the start of init.init took 82.34s
+Bootstrap to the start of init.init took 545.70s
 Early init took 0.00s
 Loader init took 0.03s
 Loading error handling took 0.02s
-Loading script took 0.19s
+Loading script took 0.17s
 Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-Loading analysis data took 0.01s
+Running init code took 0.03s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
@@ -84,21 +69,21 @@ Initial gc. took 0.03s
 DPI scale factor: 1.750000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.23s
+Creating interface object took 0.22s
 Cleaning stores took 0.00s
-Init translation took 0.03s
+Init translation took 0.04s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.05s
 Prepare screens took 0.04s
-Save pyanalysis. took 0.07s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.01s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.09s
+Interface start took 0.08s
 
-Initializing gl renderer:
+Initializing gl2 renderer:
 primary display bounds: (0, 0, 3840, 2160)
 swap interval: 1 frames
 Windowed mode.
@@ -106,31 +91,202 @@ Vendor: 'NVIDIA Corporation'
 Renderer: 'GeForce MX330/PCIe/SSE2'
 Version: '4.6.0 NVIDIA 462.30'
 Display Info: None
-Number of texture units: 32
-Using shader environment.
-Using FBO RTT.
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Using gl renderer.
-Texture testing:
-- Hardware max texture size: 32768
-- 64px textures work.
-- 128px textures work.
-- 256px textures work.
-- 512px textures work.
-- 1024px textures work.
-- 2048px textures work.
-Screen sizes: virtual=(1280, 720) physical=(1624, 914) drawable=(1624, 914)
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Total time until interface ready: 83.401432991s
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 546.624789s
 Resetting cache.
-Bootstrap to the start of init.init took 121.78s
+Bootstrap to the start of init.init took 603.23s
 Early init took 0.00s
 Loader init took 0.03s
 Loading error handling took 0.01s
-Loading script took 0.15s
-Loading save slot metadata. took 0.01s
+Loading script took 0.16s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.40s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.07s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.09s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 604.49829793s
+Screen sizes: virtual=(1280, 720) physical=(2240, 2037) drawable=(2240, 2037)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 647.37s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 648.433574915s
+Resetting cache.
+Bootstrap to the start of init.init took 650.63s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.20s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 651.547039032s
+Resetting cache.
+Bootstrap to the start of init.init took 669.12s
+Early init took 0.00s
+Loader init took 0.04s
+Loading error handling took 0.01s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.07s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 670.137584925s
+Resetting cache.
+Bootstrap to the start of init.init took 710.24s
+Early init took 0.00s
+Loader init took 0.05s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 Running init code took 0.03s
@@ -159,7 +315,7 @@ Running _start took 0.00s
 Performance test:
 Interface start took 0.09s
 
-Initializing gl renderer:
+Initializing gl2 renderer:
 primary display bounds: (0, 0, 3840, 2160)
 swap interval: 1 frames
 Windowed mode.
@@ -167,28 +323,13 @@ Vendor: 'NVIDIA Corporation'
 Renderer: 'GeForce MX330/PCIe/SSE2'
 Version: '4.6.0 NVIDIA 462.30'
 Display Info: None
-Number of texture units: 32
-Using shader environment.
-Using FBO RTT.
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Using gl renderer.
-Texture testing:
-- Hardware max texture size: 32768
-- 64px textures work.
-- 128px textures work.
-- 256px textures work.
-- 512px textures work.
-- 1024px textures work.
-- 2048px textures work.
-Screen sizes: virtual=(1280, 720) physical=(1624, 914) drawable=(1624, 914)
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Total time until interface ready: 122.702376127s
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 711.193655014s
 Resetting cache.
-Bootstrap to the start of init.init took 132.58s
+Bootstrap to the start of init.init took 740.94s
 Early init took 0.00s
-Loader init took 0.03s
+Loader init took 0.04s
 Loading error handling took 0.01s
 Loading script took 0.16s
 Loading save slot metadata. took 0.02s
@@ -206,21 +347,21 @@ Initial gc. took 0.03s
 DPI scale factor: 1.750000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.22s
+Creating interface object took 0.24s
 Cleaning stores took 0.00s
 Init translation took 0.04s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.05s
-Prepare screens took 0.04s
+Prepare screens took 0.05s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.01s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.09s
+Interface start took 0.10s
 
-Initializing gl renderer:
+Initializing gl2 renderer:
 primary display bounds: (0, 0, 3840, 2160)
 swap interval: 1 frames
 Windowed mode.
@@ -228,34 +369,62 @@ Vendor: 'NVIDIA Corporation'
 Renderer: 'GeForce MX330/PCIe/SSE2'
 Version: '4.6.0 NVIDIA 462.30'
 Display Info: None
-Number of texture units: 32
-Using shader environment.
-Using FBO RTT.
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Using gl renderer.
-Texture testing:
-- Hardware max texture size: 32768
-- 64px textures work.
-- 128px textures work.
-- 256px textures work.
-- 512px textures work.
-- 1024px textures work.
-- 2048px textures work.
-Screen sizes: virtual=(1280, 720) physical=(1624, 914) drawable=(1624, 914)
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Total time until interface ready: 133.524887085s
-Screen sizes: virtual=(1280, 720) physical=(3840, 2160) drawable=(3840, 2160)
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 741.903372049s
 Resetting cache.
-Bootstrap to the start of init.init took 278.09s
+Bootstrap to the start of init.init took 961.53s
 Early init took 0.00s
-Loader init took 0.03s
+Loader init took 0.08s
+Loading error handling took 0.02s
+Loading script took 0.23s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 962.598145962s
+Resetting cache.
+Bootstrap to the start of init.init took 1035.81s
+Early init took 0.00s
+Loader init took 0.04s
 Loading error handling took 0.01s
-Loading script took 0.15s
-Loading save slot metadata. took 0.01s
+Loading script took 0.23s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 Running init code took 0.03s
@@ -282,61 +451,185 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.01s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.09s
+Interface start took 0.08s
 
-Initializing gl renderer:
+Initializing gl2 renderer:
 primary display bounds: (0, 0, 3840, 2160)
 swap interval: 1 frames
-Fullscreen mode.
+Windowed mode.
 Vendor: 'NVIDIA Corporation'
 Renderer: 'GeForce MX330/PCIe/SSE2'
 Version: '4.6.0 NVIDIA 462.30'
 Display Info: None
-Number of texture units: 32
-Using shader environment.
-Using FBO RTT.
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Using gl renderer.
-Texture testing:
-- Hardware max texture size: 32768
-- 64px textures work.
-- 128px textures work.
-- 256px textures work.
-- 512px textures work.
-- 1024px textures work.
-- 2048px textures work.
-Screen sizes: virtual=(1280, 720) physical=(3840, 2160) drawable=(3840, 2160)
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Total time until interface ready: 279.082929134s
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1036.7994411s
 Resetting cache.
-Bootstrap to the start of init.init took 280.13s
+Bootstrap to the start of init.init took 1084.31s
 Early init took 0.00s
-Loader init took 0.04s
+Loader init took 0.03s
 Loading error handling took 0.01s
-Loading script took 0.11s
+Loading script took 0.19s
 Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
-Loading analysis data took 0.02s
+Running init code took 0.09s
+Loading analysis data took 0.05s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Dump and make backups. took 0.05s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.04s
+Initial gc. took 0.08s
 DPI scale factor: 1.750000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.33s
+Creating interface object took 0.35s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1085.6281209s
+Resetting cache.
+Bootstrap to the start of init.init took 1126.76s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.24s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.32s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.07s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1128.03749108s
+Resetting cache.
+Bootstrap to the start of init.init took 1320.35s
+Early init took 0.00s
+Loader init took 0.04s
+Loading error handling took 0.02s
+Loading script took 0.29s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.14s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 1.04s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.07s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1322.50454807s
+Resetting cache.
+Bootstrap to the start of init.init took 1335.76s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.21s
 Cleaning stores took 0.00s
 Init translation took 0.03s
 Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
 Prepare screens took 0.05s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.01s
@@ -344,29 +637,778 @@ Running _start took 0.00s
 Performance test:
 Interface start took 0.09s
 
-Initializing gl renderer:
+Initializing gl2 renderer:
 primary display bounds: (0, 0, 3840, 2160)
 swap interval: 1 frames
-Fullscreen mode.
+Windowed mode.
 Vendor: 'NVIDIA Corporation'
 Renderer: 'GeForce MX330/PCIe/SSE2'
 Version: '4.6.0 NVIDIA 462.30'
 Display Info: None
-Number of texture units: 32
-Using shader environment.
-Using FBO RTT.
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Using gl renderer.
-Texture testing:
-- Hardware max texture size: 32768
-- 64px textures work.
-- 128px textures work.
-- 256px textures work.
-- 512px textures work.
-- 1024px textures work.
-- 2048px textures work.
-Screen sizes: virtual=(1280, 720) physical=(3840, 2160) drawable=(3840, 2160)
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Total time until interface ready: 281.153115034s
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1336.68888688s
+
+Full traceback:
+  File "game/script.rpy", line 250, in script
+    voice kei_hai
+  File "renpy/ast.py", line 1969, in execute
+    self.call("execute")
+  File "renpy/ast.py", line 1957, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "renpy/statements.py", line 278, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/00voice.rpy", line 534, in execute_voice
+    fn = _audio_eval(fn)
+  File "renpy/common/000statements.rpy", line 32, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
+  File "renpy/python.py", line 2249, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "renpy/python.py", line 2242, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 250, in <module>
+    voice kei_hai
+NameError: name 'kei_hai' is not defined
+
+While running game code:
+  File "game/script.rpy", line 250, in script
+    voice kei_hai
+  File "renpy/common/00voice.rpy", line 534, in execute_voice
+    fn = _audio_eval(fn)
+  File "renpy/common/000statements.rpy", line 32, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
+  File "game/script.rpy", line 250, in <module>
+    voice kei_hai
+NameError: name 'kei_hai' is not defined
+Resetting cache.
+Bootstrap to the start of init.init took 1349.63s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.22s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1350.59256506s
+Resetting cache.
+Bootstrap to the start of init.init took 1384.57s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.21s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.21s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.08s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1385.618083s
+Resetting cache.
+Bootstrap to the start of init.init took 1433.17s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.21s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1434.09010696s
+Resetting cache.
+Bootstrap to the start of init.init took 1478.68s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.18s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.21s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1479.73635793s
+Resetting cache.
+Bootstrap to the start of init.init took 1501.63s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.22s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1502.57217598s
+Resetting cache.
+Bootstrap to the start of init.init took 1595.56s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.21s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1596.49416089s
+Resetting cache.
+Bootstrap to the start of init.init took 1635.09s
+Early init took 0.00s
+Loader init took 0.04s
+Loading error handling took 0.02s
+Loading script took 0.27s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.21s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1636.12265396s
+Resetting cache.
+Bootstrap to the start of init.init took 1707.91s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.38s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.29s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1709.12692904s
+Resetting cache.
+Bootstrap to the start of init.init took 1794.50s
+Early init took 0.00s
+Loader init took 0.05s
+Loading error handling took 0.02s
+Loading script took 0.31s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.26s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1795.63033605s
+Resetting cache.
+Bootstrap to the start of init.init took 1891.35s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.21s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.21s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1892.30700898s
+Resetting cache.
+Bootstrap to the start of init.init took 1953.40s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.16s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 345: expected statement.
+    voice_keihua
+                ^
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.28s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1953.99877501s
+Resetting cache.
+Bootstrap to the start of init.init took 1955.06s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.16s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 345: expected statement.
+    voice_keihua
+                ^
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.27s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1955.63343692s
+Resetting cache.
+Bootstrap to the start of init.init took 1967.29s
+Early init took 0.00s
+Loader init took 0.05s
+Loading error handling took 0.01s
+Loading script took 0.25s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.27s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1968.42092991s
+Resetting cache.
+Bootstrap to the start of init.init took 1990.20s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.28s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 1991.24706006s
+
+Full traceback:
+  File "game/script.rpy", line 348, in script
+    voice rena_hehh
+  File "renpy/ast.py", line 1969, in execute
+    self.call("execute")
+  File "renpy/ast.py", line 1957, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "renpy/statements.py", line 278, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/00voice.rpy", line 534, in execute_voice
+    fn = _audio_eval(fn)
+  File "renpy/common/000statements.rpy", line 32, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
+  File "renpy/python.py", line 2249, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "renpy/python.py", line 2242, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 348, in <module>
+    voice rena_hehh
+NameError: name 'rena_hehh' is not defined
+
+While running game code:
+  File "game/script.rpy", line 348, in script
+    voice rena_hehh
+  File "renpy/common/00voice.rpy", line 534, in execute_voice
+    fn = _audio_eval(fn)
+  File "renpy/common/000statements.rpy", line 32, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
+  File "game/script.rpy", line 348, in <module>
+    voice rena_hehh
+NameError: name 'rena_hehh' is not defined
+Resetting cache.
+Bootstrap to the start of init.init took 2002.57s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 2003.58391404s
+Resetting cache.
+Bootstrap to the start of init.init took 2019.37s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ezrag\\AppData\\Roaming/RenPy/backups\\higurashi_gou_fangame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.22s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX330/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.30'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(2240, 1260) drawable=(2240, 1260)
+Maximum texture size: 4096x4096
+Total time until interface ready: 2020.31709409s

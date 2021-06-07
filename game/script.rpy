@@ -38,8 +38,23 @@ image re school blush = "char:images/Characters/rena/re_sch_blsh.png"
 image re school hau = "char:images/Characters/rena/re_sch_hau.png"
 image re school kai = "char:images/Characters/rena/re_sch_kai.png"
 image re school2 eh = "char:images/Characters/rena/re_sch2_eh.png"
+image re school ang = "char:images/Characters/rena/re_sch_ang.png"
+image re school2 glad = "char:images/Characters/rena/re_sch2_glad.png"
+image re school joy = "char:images/Characters/rena/re_sch2_joy.png"
 #Mion
 image m school happy1 = "char:images/Characters/mion/mi_sch_h1.png"
+image m school blush = "char:images/Characters/mion/mi_sch_blsh.png"
+image m school dsspont = "char:images/Characters/mion/mi_sch_dissapoint.png"
+image m school happy2 = "char:images/Characters/mion/mi_sch_h2.png"
+image m school kind = "char:images/Characters/mion/mi_sch_kind.png"
+image m school old = "char:images/Characters/mion/mi_sch_old.png"
+image m school serious = "char:images/Characters/mion/mi_sch_serious.png"
+image m school shout = "char:images/Characters/mion/mi_sch_shout.png"
+image m school smile = "char:images/Characters/mion/mi_sch_smile.png"
+image m school sneer = "char:images/Characters/mion/mi_sch_sneer.png"
+image m school happy1 = "char:images/Characters/mion/mi_sch2_h1.png"
+image m school happy2 = "char:images/Characters/mion/mi_sch2_hap.png"
+
 #satoko
 image sa school happy1 = "char:images/Characters/satoko/sa_sch_hap.png"
 
@@ -136,16 +151,17 @@ label start:
             stop sound fadeout 1.0
             pause 3.0
             
-            
+            voice kei_mom_k
             "Mom" "Keiichi! Wake up!"
 
             scene kei_room_dark with slowdissolve
 
             pause 1.0 
-
+            voice kei_yawn
             "I stirred from my slumber, yawning as I rubbed my eyes."
             "Slowly, the nightmare I had just awoken from faded from my mind."
             pause 1.0
+            play sound tummy
             "{i}*grumble*{/i}"
 
             "I guess I should go down and eat breakfast. Rena-chan will be here soon to pick me up."
@@ -174,7 +190,7 @@ label start:
 
             scene mae_dining_morn with dissolve
 
-            voice kei_grunt
+            voice kei_oh
             k "Yeah~ Your cooking is just that delicious!"
 
             "Back when we lived in the city, I was never a morning person. My parents were lucky if they saw me before I left for school."
@@ -200,37 +216,37 @@ label start:
 
             "Mom" "Have a safe trip! Don't forget to thank Rena-chan for the vegetables!"
 
-            voice kei_grunt
+            voice kei_giggle
             k "Haha, will do!"
 
             scene kei_house_sch with dissolve
 
             show re school happy1 with dissolve
 
-            voice rena_kei
+            voice rena_ohayo
             re "Keiichi-kun! Good morning!"
 
-            voice kei_ano
+            voice kei_yorena
             k "Why are you always here so early? You know you can sleep in every so often."
 
             show re school blush with dissolve
-            voice rena_cutelaugh
+            voice rena_unn
             re "But if I slept in, I would keep you waiting."
 
-            voice kei_grunt
+            voice kei_chee
             k "I wouldn't wait for you."
 
-            voice rena_cryout
+            voice re_mate
             re "W-wha...? Keiichi-kun is so mean!"
 
-            voice kei_eh
+            voice kei_jajaja    
             k "I'd leave you in the dust and kick you to the curb."
 
             show re school hau with dissolve
             voice rena_squeal
             re "Keiichi-kun! But I always wait for you..."
 
-            voice kei_ja
+            voice kei_nah
             k "Don't care. I'd ditch you in a heartbeat if you were late."
 
             show re school blush with dissolve
@@ -240,13 +256,13 @@ label start:
             "I acted as if I was bothered by Rena, but in truth every morning I was excited to walk to school with her."
             "That being said, someone this fun to tease is a rare occurance. I have to take advantage of it when I can."
 
-            voice kei_eh
+            voice kei_giggle
             k "Just kidding. I would never ditch you."
 
-            voice rena_squeal
+            voice re_hh
             re "Th-thanks."
 
-            voice kei_ja
+            voice kei_re2
             k "Yep. I would definitely wait for you. No matter how long it took, I would wait for you forever, Rena-chan."
 
             show re school kai with dissolve
@@ -267,23 +283,23 @@ label start:
             "Rena and I made eye contact, wondering, if perhaps, Mion had psychically been listening in on our previous conversation."
             
 
-            voice kei_ja
+            voice kei_mi2
             k "You're the one who is usually late Mion..."
 
             pause 1.0
 
             "This perky girl is Sonozaki Mion. She's my senior and pretty much the leader of our class."
 
-            voice rena_mion
+            voice rena_ohayo
             re "Good morning Mii-chan!"
 
-            voice mion_ohrena
+            voice mion_ohayo
             m "Good morning Rena~!"
 
-            voice mion_ahque
+            voice mion_yahokei
             m "Long time no see, Kei-chan! How many years has it been?"
 
-            voice kei_grunt
+            voice kei_hua
             k "I was gone for two days, jeez! Besides, shouldn't I be asking that question to you, old man!?"
 
             "Mion leaned in to get a good look at me."
@@ -303,11 +319,11 @@ label start:
             pause 1.0
             voice mion_laughcute
             m "Kei-chan, I see that your buddy is quite perky this morning."
-            voice kei_ja 
+            voice kei_giggle 
             k "Yes, yes.{fast} He's always getting perky in the morning. It's actually a real pain. Wanna try saying hi to him?"
 
             show re school2 eh at right with dissolve                          
-            voice rena_cryout
+            voice rena_haaaaaaahhhhhh
             re "Waa... What are you talking about? Mii-chan, Keiichi-kun?!"
 
             "As usual, Rena couldn't keep up with our early morning, crude banter. I can't blame her though. Most people would also be confused by Mion's morning antics."
@@ -334,15 +350,17 @@ label start:
             voice mion_laughcute
             m "Well, well... hehehe... After you, Kei-chan..."
 
+            voice kei_ungh
             k "Are you trying to test my skills? I won't be defeated this time! Rena, get back!"
 
             show re school2 eh at right with dissolve 
             voice rena_squeal
             re "Huh..? What's going on guys?"
 
+            voice kei_hua
             k "Stay back Rena! Its her!! She's at it again!"
 
-            
+            voice rena_uuu
             re "Eh..? By she, you mean...?"
 
             k "Look over there! Your trap is way too obvious, Houjo Satoko!!!!"
