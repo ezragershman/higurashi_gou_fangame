@@ -488,6 +488,11 @@ label start:
             re "I wanna take her home!! Hauuuuuuuuuuuu!!!!!"
 
             #end scene wipe to Keiichi's Bedroom
+            window hide
+            pause 2.0
+            show endofchapter with slowdissolve
+
+            pause 3.0
 
             "Later that evening I recieved a knock on the door from Rena and Mion."
 
@@ -629,7 +634,6 @@ label start:
             "If my everyday life could stay like this, then I would fo everything I could to keep it that way."
             pause 2.0
             "I truly am glad that I moved to Hinamizawa and met my friends."
-
             window hide
             pause 2.0
             show endofchapter with slowdissolve
@@ -641,16 +645,213 @@ label start:
             scene black with slowdissolve
             call screen end_oni1
         label oni2:
+            "Having completely devoured all of Rena's delicious food, we spent the rest of the afternoon hanging out."
+            "I didn't realize how late it was until suddenly the sun was setting."
+            "Satoko and Rika left as soon as the sun started to set."
+            "Its important for kids to get home safely before it gets too dark."
+            "That left Mion, Rena, and me to clean up and carry everything home."
+            "Not that I'm complaining. I would do ten times the amount of work for an afternoon with my friends."
+            "Eventually Mion parted ways with us, as we had reached the fork in the road that divided our homes."
+            m "Bye, guys! See you all tomorrow."
+            k "Mion, thank you so much for showing me around today."
+            k "I really appreciate it."
+            m "Haha! No worries Kei-chan. See you guys tomorrow!"
+            re "Bye bye!~"
+            pause 1.0
+            "Rena and I continued on towards our homes."
+            re "I wonder... did Keiichi have fun today?"
+            k "Yeah, loads! I'm actually kinda bummed we're all going home."
+            "Rena stopped in front of me with a smile."
+            re "Well... is it okay then if we make one stop on the way back? Is it...?"
+            k "Sure. Where are we going?"
+            re "Its a suprise!~"
+            "Rena led me down a new path I had never taken before."
+            "The sky was a beautiful amber color and the summer higurashi were singing their song."
+            "Eventually we came to a gate, which opened up to a massive trash dump."
+            "There were piles and piles of junk of all sorts, from furniture to electronics to toys, and, of course, the requisite garbage.."
+            "I wasn't sure whether Rena had taken me to the right place, until I heard her speak."
+            re "I wonder what's here! I wonder!~"
+            "She sprinted down expertly hopping through the trash heap."
+            k "You wanted to go climb a pile of trash, Rena?"
+            re "It's not trash!"
+            re "To me, it's a pile of treasure!"
+            "Treasure...?"
+            re "Maybe I'll find something kyute..."
+            re "I can't wait!~ Can't wait!~"
+            "She ran so far ahead that I couldn't see her anymore."
+            "*Sigh*"
+            "I guess I'll follow her. Besides, climbing around in the dump seems kinda fun."
+            k "Rena! Wait up!"
+            "I tried to climb down into the dump, but my footing slipped and I fell down."
+            "Oof, that hurt. How does Rena do it?"
+            re "It's okay, Keiichi-kun!"
+            "Rena's voice came from over the next mound of trash."
+            re "You just wait over there!"
+            "Sheesh..."
+            "I clambered out of the dump and onto stable ground."
+            "I laid down and stretched out, staring at the summer sky."
+            "What a wonderful day."
+            "The sunset is so beautiful."
+            "I never want these days to end."
+            "..."
+            "..."
+            "Before I knew it, my eyes had closed and I had fallen asleep for a few seconds."
+            "No worries. When I open my eyes I will see the same beautiful summer sky."
+            k "Gaahhh!"
+            "When I opened my eyes, the last thing I expected to see right above my eyes was a camera lens."
+            "???" "Woah, you scared me!"
+            k "I think you mean the opposite!"
+            k "You're the one who scared me!"
+            "???" "Whoops. Sorry about that. I didn't mean to startle you."
+            "Didn't mean to startle me? Who in their right mind would take a picture of a sleeping child and then be suprised when the child is startled..."
+            "The man's voice brought me back to focus."
+            "???" "Do you live here in Hinamizawa?"
+            "Who was this man? Why did he think I would reveal any information to him?"
+            "Having sensed my discomfort, the man made ways to introduce himself."
+            "???" "The name's Tomitake."
+            "Tomitake" "I'm a freelance photographer. I come by Hinamizawa every now and then."
+            "He acted very familiar with me, which was strange considering I had never met him before."
+            "Granted, lots of people in the village treated me like that, but this guy isn't even from Hinamizawa..."
+            "Tomitake" "There's so much beauty just waiting to be captured on film."
+            k "Shouldn't a professional photographer know better than to take someone's photo without asking permission?"
+            "Tomitake" "Ahaha. No worries!"
+            "Tomitake" "I'm used to taking pictures of birds, since I don't need to ask their permission!"
+            "As if that makes it any better!"
+            re "Keiichi-kun!"
+            "Luckily, there was Rena's voice to calm me down again."
+            "Let's see... Where is she now...?"
+            "I turned and looked toward the sound of her voice. Rena was standing atop a broken down car."
+            "She was pretty deep out there. It's impressive she made it so far."
+            re "Sorry to keep you waiting, Keiichi-kun! I'm all done!"
+            "Tomitake" "Oh, I didn't realize you were here with a friend."
+            "Tomitake" "What on earth is she doing in a place like this?"
+            "Tomitake asked me, as if I knew more than him about why Rena brought me here."
+            "Might as well have some fun while I'm waiting for Rena."
+            k "I have no idea why she's here."
+            k "Maybe she's checking in on a dismembered corpse or something."
+            "I expected Tomitake to react in some way, but he just looked at me."
+            "Whoops... I ended up saying something that I would only say to one of my friends. I guess he didn't really get my sense of humor."
+            k "Never mind... I was just kidding..."
+            "Tomitake continued to look at me with that somber expression."
+            "Tomitake" "What a terrible incident."
+            pause 2.0
+            "Huh...?"
+            pause 2.0
+            "What did he just say?"
+            pause 2.0
+            "I could have sworn he just said..."
+            "Tomitake" "I hear one of his arms is still missing."
+            pause 3.0
+            re "Thanks for waiting, Keiichi-kun!"
+            "Oh. When did Rena get here?"
+            re "I'm sorry that took so long, so sorry!~"
+            "She then realized that Tomitake-san was here."
+            re "Oh, good evening."
+            "Tomitake" "Good evening."
+            "Tomitake" "I don't want to be a third wheel here, so I'll see you guys around."
+            "Tomitake" "Sorry again for scaring you, Keiichi-kun."
+            "He walked away."
+            "What was it he said again...?"
+            "His arm...missing...?"
+            re "Keiichi-kun?"
+            "Rena's voice again brought me back to the present."
+            k "Ohh, uhh. Did you find any buried treasure?"
+            "Rena's face brightened up."
+            re "I did! I did!"
+            re "I found a Kenta-kun doll!"
+            k "Kenta-kun doll? You mean the ones you see in front of those fried chicken joints?"
+            re "Yeah! A Kenta-kun!~"
+            re "Hauu, it's so kyute!"
+            re "I wanna take him home!!"
+            k "He's in the trash so you can take him home if you want."
+            re "Well, I would if I could but he's buried deep in the bottom of the pile."
+            re "And its getting dark soon..."
+            k "How about we come by again and I'll help you get him out?"
+            k "That way I can pay you back for that awesome bento you made us."
+            "Rena beamed from ear to ear."
+            re "Thank you!"
+            re "Keiichi-kun's gonna help me... and Kenta-kun's gonna come home with me! Hau~"
+            "As weird as it is, I'm kinda glad Rena brought me to the junkyard."
+            "Her obsession with kyute things is adorable, and she is such a nice girl."
+            "Everyone here in Hinamizawa has been so nice."
+            "I keep meeting new people... it's amazing how many people you meet in a small town."
+            "Like Tomitake-san. Weird as he is, he seems like an alright guy."
+            "Except...what was that thing he said...? About some incident?"
+            k "Hey, Rena?"
+            k "Did something big happen around here a while back?"
+            re "Yeah! They were gonna build a dam here."
+            k "Did anything happen at the build site? Like an accident, or some kind of incident..."
+            re "I don't know.{fast}"
+            pause 2.0
+            "Eh?"
+            re "I only moved here a year ago, you see!"
+            k "Huh? You're also a transfer student? I had no idea."
+            re "Yeah! That's why I dunno about stuff that happened before then! Sorry!"
+            "I wonder..."
+            "Did something happen here in Hinamizawa?"
+            "Only the higurashi could know the true answer to that question."
 
+            window hide
+            pause 2.0
+            show endofchapter with slowdissolve
 
+            pause 3.0
 
+            "It was the next day after school."
+            
+            m "The creed of our club is to obtain games from all eras and nations, and to play these games to their fullest potential!"
+            m "I am pleased to announce that, despite coming in dead last, our latest club applicant showed incredible promise during his evaluation game, and, as such, I, Sonozaki Mion, president of this club, do hereby welcome our newest member..."
+            m "Maebara Keiichi!"
+            "This was it. My chance to prove myself."
+            m "Now, are you ready for today!?"
+            "Last week Mion and the rest tested my skills by playing a game of old maid."
+            "I lost, and as a result was forced to walk around town with marker scribbled all over my face."
+            k "It's all your fault anyway! You guys and your shifty card tricks..."
+            k "Do you know how much humiliation I had to endure?!"
+            re "I mean, you did lose, so you had to face the penalty game... right...?"
+            k "A penalty game!?"
+            k "This was far worse than that!"
+            k "Mion used that torture device to completely ruin my face!"
+            m "You aren't spreaking about this, are you Kei-chan?"
+            "Mion whipped out a thick marker. The very tool used to desecrate my face."
+            k "Of course I mean that! And it's permanent ink, too! My mom caught me wiping off all that crap in the bathroom! Have a little sympathy!"
+            sa "You're such a drama queen, Keiichi-san."
+            "Rika again came over and pet my head, which naturally caused Rena to go into a kyute fit."
+            ri "Poor, poor Keiichi!"
+            k "So... What game are we playing today? Old maid again? Tycoon?"
+            m "Nah, it wouldn't be fair to youto play another card game. You have an inherent handicap. Let's do something else..."
+            pause 1.0
+            m "How about a treasure hunt instead?"
+            m "I'll hide this marker somewhere in the school building."
+            m "Whoever gets their hands on it first, wins. That sounds fair, doesn't it, Kei-chan?"
+            k "Hold on. If you hide the treasure, you can't play the game. How are you supposed to get a penalty game??"
 
+            m "Fine, I'll add a special rule!"
+            m "If you are the first to find the treasure, Kei-chan, I will let you scribble on my face."
+            "There it was. My win condition."
+            "All I had to do was find a treasure? Easy."
+            "I could see the prize in sight."
+            k "You better not take back those words, Mion!"
             scene black with slowdissolve
 
 
 
 
-        
+
+
+
+
+
+
+    label oni_tip1:
+        "Hauuu!~"
+        "There's a new pile of treasure!"
+        "How exciting...!"
+        pause 3.0
+        "This froggy is so kyute!~"
+        "Hauuu! A cute red post box!!~"
+        pause 3.0
+        "Over there! Could it be...?"
         return
 
 #label splashscreen:
