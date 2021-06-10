@@ -27,36 +27,166 @@ define sh = Character("Shion", color="#49BF88")
 
 
 
-#Keiichi 
+#Images
 
-image k school happy1 = "char:images/Characters/kei/k_sch_h1.png"
+#KEIICHI
+image ke sch happy = Image("CharactersMei/Keichi/ke_sch1")
+
+#MION
+image mi cas sigh close = Image("CharactersMei/Mion/mi_cas1")
+image mi cas grin close = Image("CharactersMei/Mion/mi_cas2")
+image mi cas oh close = Image("CharactersMei/Mion/mi_cas3")
+image mi cas blank close = Image("CharactersMei/Mion/mi_cas4")
+image mi cas open close = Image("CharactersMei/Mion/mi_cas5")
+image mi cas irate close = Image("CharactersMei/Mion/mi_cas6")
+image mi cas smile close = Image("CharactersMei/Mion/mi_cas7")
+image mi cas laugh close = Image("CharactersMei/Mion/mi_cas8")
+image mi cas blank = Image("CharactersMei/Mion/mi_cas9")
+image mi cas open = Image("CharactersMei/Mion/mi_cas10")
+image mi cas irate = Image("CharactersMei/Mion/mi_cas11")
+image mi cas smile = Image("CharactersMei/Mion/mi_cas12")
+image mi cas laugh = Image("CharactersMei/Mion/mi_cas13")
+image mi cas sigh = Image("CharactersMei/Mion/mi_cas14")
+image mi cas grin = Image("CharactersMei/Mion/mi_cas15")
+image mi cas oh = Image("CharactersMei/Mion/mi_cas16")
+
+image mi sch sigh close = Image("CharactersMei/Mion/mi_sch1")
+image mi sch grin close = Image("CharactersMei/Mion/mi_sch2")
+image mi sch oh close = Image("CharactersMei/Mion/mi_sch3")
+image mi sch blank close = Image("CharactersMei/Mion/mi_sch4")
+image mi sch open close = Image("CharactersMei/Mion/mi_sch5")
+image mi sch irate close = Image("CharactersMei/Mion/mi_sch6")
+image mi sch smile close = Image("CharactersMei/Mion/mi_sch7")
+image mi sch laugh close = Image("CharactersMei/Mion/mi_sch8")
+image mi sch blank = Image("CharactersMei/Mion/mi_sch9")
+image mi sch open = Image("CharactersMei/Mion/mi_sch10")
+image mi sch irate = Image("CharactersMei/Mion/mi_sch11")
+image mi sch smile = Image("CharactersMei/Mion/mi_sch12")
+image mi sch laugh = Image("CharactersMei/Mion/mi_sch13")
+image mi sch sigh = Image("CharactersMei/Mion/mi_sch14")
+image mi sch grin = Image("CharactersMei/Mion/mi_sch15")
+image mi sch oh = Image("CharactersMei/Mion/mi_sch16")
 
 
-#Rena
-image re school happy1 = "char:images/Characters/rena/re_sch_h1.png"
-image re school blush = "char:images/Characters/rena/re_sch_blsh.png"
-image re school hau = "char:images/Characters/rena/re_sch_hau.png"
-image re school kai = "char:images/Characters/rena/re_sch_kai.png"
-image re school2 eh = "char:images/Characters/rena/re_sch2_eh.png"
-image re school ang = "char:images/Characters/rena/re_sch_ang.png"
-image re school2 glad = "char:images/Characters/rena/re_sch2_glad.png"
-image re school joy = "char:images/Characters/rena/re_sch2_joy.png"
-#Mion
-image m school happy1 = "char:images/Characters/mion/mi_sch_h1.png"
-image m school blush = "char:images/Characters/mion/mi_sch_blsh.png"
-image m school dsspont = "char:images/Characters/mion/mi_sch_dissapoint.png"
-image m school happy2 = "char:images/Characters/mion/mi_sch_h2.png"
-image m school kind = "char:images/Characters/mion/mi_sch_kind.png"
-image m school old = "char:images/Characters/mion/mi_sch_old.png"
-image m school serious = "char:images/Characters/mion/mi_sch_serious.png"
-image m school shout = "char:images/Characters/mion/mi_sch_shout.png"
-image m school smile = "char:images/Characters/mion/mi_sch_smile.png"
-image m school sneer = "char:images/Characters/mion/mi_sch_sneer.png"
-image m school happy1 = "char:images/Characters/mion/mi_sch2_h1.png"
-image m school happy2 = "char:images/Characters/mion/mi_sch2_hap.png"
+#RENA
+image re cas sigh close = Image("CharactersMei/Rena/re_cas9")
+image re cas grin close = Image("CharactersMei/Rena/re_cas10")
+image re cas oh close = Image("CharactersMei/Rena/re_cas11")
+image re cas blank close = Image("CharactersMei/Rena/re_cas12")
+image re cas open close = Image("CharactersMei/Rena/re_cas13")
+image re cas irate close = Image("CharactersMei/Rena/re_cas14")
+image re cas smile close = Image("CharactersMei/Rena/re_cas15")
+image re cas smile  = Image("CharactersMei/Rena/re_cas16")
+image re cas laugh close  = Image("CharactersMei/Rena/re_cas17")
+image re cas sigh  = Image("CharactersMei/Rena/re_cas18")
+image re cas grin  = Image("CharactersMei/Rena/re_cas19")
+image re cas oh  = Image("CharactersMei/Rena/re_cas20")
+image re cas blank  = Image("CharactersMei/Rena/re_cas21")
+image re cas open  = Image("CharactersMei/Rena/re_cas22")
+image re cas irate  = Image("CharactersMei/Rena/re_cas23")
 
-#satoko
-image sa school happy1 = "char:images/Characters/satoko/sa_sch_hap.png"
+image re sch sigh close = Image("CharactersMei/Rena/re_sch9")
+image re sch grin close = Image("CharactersMei/Rena/re_sch10")
+image re sch oh close = Image("CharactersMei/Rena/re_sch11")
+image re sch blank close = Image("CharactersMei/Rena/re_sch12")
+image re sch open close = Image("CharactersMei/Rena/re_sch13")
+image re sch irate close = Image("CharactersMei/Rena/re_sch14")
+image re sch smile close = Image("CharactersMei/Rena/re_sch15")
+image re sch smile  = Image("CharactersMei/Rena/re_sch16")
+image re sch laugh close  = Image("CharactersMei/Rena/re_sch17")
+image re sch sigh  = Image("CharactersMei/Rena/re_sch18")
+image re sch grin  = Image("CharactersMei/Rena/re_sch19")
+image re sch oh  = Image("CharactersMei/Rena/re_sch20")
+image re sch blank  = Image("CharactersMei/Rena/re_sch22")
+image re sch open  = Image("CharactersMei/Rena/re_sch23")
+image re sch irate  = Image("CharactersMei/Rena/re_sch21")
+
+#RIKA
+image ri cas sigh close = Image("CharactersMei/Rika/ri_cas1")
+image ri cas grin close = Image("CharactersMei/Rika/ri_cas2")
+image ri cas oh close = Image("CharactersMei/Rika/ri_cas3")
+image ri cas blank close = Image("CharactersMei/Rika/ri_cas4")
+image ri cas open close = Image("CharactersMei/Rika/ri_cas5")
+image ri cas irate close = Image("CharactersMei/Rika/ri_cas6")
+image ri cas smile close = Image("CharactersMei/Rika/ri_cas7")
+image ri cas smile  = Image("CharactersMei/Rika/ri_cas8")
+image ri cas laugh close  = Image("CharactersMei/Rika/ri_cas9")
+image ri cas sigh  = Image("CharactersMei/Rika/ri_cas10")
+image ri cas grin  = Image("CharactersMei/Rika/ri_cas11")
+image ri cas oh  = Image("CharactersMei/Rika/ri_cas12")
+image ri cas blank  = Image("CharactersMei/Rika/ri_cas13")
+image ri cas open  = Image("CharactersMei/Rika/ri_cas14")
+image ri cas irate  = Image("CharactersMei/Rika/ri_cas15")
+
+image ri sch sigh close = Image("CharactersMei/Rika/ri_sch1")
+image ri sch grin close = Image("CharactersMei/Rika/ri_sch2")
+image ri sch oh close = Image("CharactersMei/Rika/ri_sch3")
+image ri sch blank close = Image("CharactersMei/Rika/ri_sch4")
+image ri sch open close = Image("CharactersMei/Rika/ri_sch5")
+image ri sch irate close = Image("CharactersMei/Rika/ri_sch6")
+image ri sch smile close = Image("CharactersMei/Rika/ri_sch7")
+image ri sch smile  = Image("CharactersMei/Rika/ri_sch8")
+image ri sch laugh close  = Image("CharactersMei/Rika/ri_sch9")
+image ri sch sigh  = Image("CharactersMei/Rika/ri_sch10")
+image ri sch grin  = Image("CharactersMei/Rika/ri_sch11")
+image ri sch oh  = Image("CharactersMei/Rika/ri_sch12")
+image ri sch blank  = Image("CharactersMei/Rika/ri_sch13")
+image ri sch open  = Image("CharactersMei/Rika/ri_sch14")
+image ri sch irate  = Image("CharactersMei/Rika/ri_sch15")
+
+#SATOKO
+image sa cas sigh close = Image("CharactersMei/Satoko/sa_cas9")
+image sa cas grin close = Image("CharactersMei/Satoko/sa_cas10")
+image sa cas oh close = Image("CharactersMei/Satoko/sa_cas11")
+image sa cas blank close = Image("CharactersMei/Satoko/sa_cas12")
+image sa cas open close = Image("CharactersMei/Satoko/sa_cas13")
+image sa cas irate close = Image("CharactersMei/Satoko/sa_cas14")
+image sa cas smile close = Image("CharactersMei/Satoko/sa_cas15")
+image sa cas smile  = Image("CharactersMei/Satoko/sa_cas16")
+image sa cas sigh  = Image("CharactersMei/Satoko/sa_cas18")
+image sa cas grin  = Image("CharactersMei/Satoko/sa_cas19")
+image sa cas oh  = Image("CharactersMei/Satoko/sa_cas20")
+image sa cas blank  = Image("CharactersMei/Satoko/sa_cas21")
+image sa cas open  = Image("CharactersMei/Satoko/sa_cas22")
+image sa cas irate  = Image("CharactersMei/Satoko/sa_cas17")
+image sa cas sneak  = Image("CharactersMei/Satoko/sa_cas2")
+
+
+
+image sa sch sigh close = Image("CharactersMei/Satoko/sa_sch9")
+image sa sch grin close = Image("CharactersMei/Satoko/sa_sch10")
+image sa sch oh close = Image("CharactersMei/Satoko/sa_sch11")
+image sa sch blank close = Image("CharactersMei/Satoko/sa_sch12")
+image sa sch open close = Image("CharactersMei/Satoko/sa_sch13")
+image sa sch irate close = Image("CharactersMei/Satoko/sa_sch14")
+image sa sch smile close = Image("CharactersMei/Satoko/sa_sch15")
+image sa sch smile  = Image("CharactersMei/Satoko/sa_sch16")
+image sa sch sneak  = Image("CharactersMei/Satoko/sa_sch17")
+image sa sch sigh  = Image("CharactersMei/Satoko/sa_sch18")
+image sa sch grin  = Image("CharactersMei/Satoko/sa_sch19")
+image sa sch oh  = Image("CharactersMei/Satoko/sa_sch20")
+image sa sch blank  = Image("CharactersMei/Satoko/sa_sch21")
+image sa sch open  = Image("CharactersMei/Satoko/sa_sch22")
+image sa sch irate  = Image("CharactersMei/Satoko/sa_sch23")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -66,10 +196,6 @@ image sa school happy1 = "char:images/Characters/satoko/sa_sch_hap.png"
 label start:
     #testing
     
-
-
-
-
     label onidamashi:
         label oni1:
             stop music fadeout 1.0
@@ -183,7 +309,6 @@ label start:
             "Mom" "You haven't skipped breakfast once since we moved to Hinamizawa. I'm so proud of you."
             scene black with dissolve
             "Let me explain."
-            show k school happy1 with dissolve
             "My name is Maebara Keiichi."
             "It has been three weeks since my family moved to the small village of Hinamizawa, and, honestly, I can't believe it belongs to the same country as the city I used to live in."
             "In fact, I have a hard time believing that it belongs to the same time period..."
@@ -221,7 +346,6 @@ label start:
 
             scene kei_house_sch with dissolve
 
-            show re school happy1 with dissolve
 
             voice rena_ohayo
             re "Keiichi-kun! Good morning!"
@@ -229,7 +353,6 @@ label start:
             voice kei_yorena
             k "Why are you always here so early? You know you can sleep in every so often."
 
-            show re school blush with dissolve
             voice rena_unn
             re "But if I slept in, I would keep you waiting."
 
@@ -242,14 +365,12 @@ label start:
             voice kei_jajaja    
             k "I'd leave you in the dust and kick you to the curb."
 
-            show re school hau with dissolve
             voice rena_squeal
             re "Keiichi-kun! But I always wait for you..."
 
             voice kei_nah
             k "Don't care. I'd ditch you in a heartbeat if you were late."
 
-            show re school blush with dissolve
             voice rena_cryout
             re "Why are you being so cold to me, Keiichi-kun? Why?"
 
@@ -265,7 +386,6 @@ label start:
             voice kei_re2
             k "Yep. I would definitely wait for you. No matter how long it took, I would wait for you forever, Rena-chan."
 
-            show re school kai with dissolve
             voice rena_hau
             re "F...f...forever...? Hauuuuu~"
 
@@ -273,8 +393,7 @@ label start:
 
             scene hi2_day with dissolve
             
-            show re school happy1 at right with dissolve
-
+ 
             pause 2.0
             show m school happy1 with dissolve
 
@@ -493,7 +612,9 @@ label start:
             show endofchapter with slowdissolve
 
             pause 3.0
+            hide endofchapter with slowdissolve
 
+            scene mae_door_dusk with dissolve
             "Later that evening I recieved a knock on the door from Rena and Mion."
 
             re "Hey Keiichi-kun!"
@@ -517,6 +638,7 @@ label start:
             
 
             "*The next day*"
+            scene hi2_day with dissolve
 
             "Mion and I met up at the usual spot. Rena, however, was nowhere to be seen."
 
@@ -542,9 +664,16 @@ label start:
             re "Keiichi-kun...? Mii-chan..? What do you mean take responsibility...? Hauu..."
 
             "Fortunately for her, taking responsibility meant carrying around the food that Rena made."
+            scene hi3 with dissolve
+            pause 3.0
+            scene hi9 with dissolve
+            pause 3.0
+            scene hi1_view with dissolve
+            pause 3.0
             "Rena and Mion led me through the main shopping area of Hinamizawa."
             "We passed by kind villagers who all knew who I was, though they seemed to be complete strangers to me."
             "It was a beautiful day for a walk around the village. Days like these make me so glad that I live in Hinamizawa."
+            scene shrine_day with dissolve
             "Finally, Rena and Mion brought me to a steep outdoor stairway, appearing to lead to a shrine of some sort."
 
             re "Welcome to the Furude Shrine!"
@@ -794,8 +923,8 @@ label start:
             window hide
             pause 2.0
             show endofchapter with slowdissolve
-
             pause 3.0
+            hide endofchapter with slowdissolve
 
             "It was the next day after school."
             
@@ -832,7 +961,104 @@ label start:
             "All I had to do was find a treasure? Easy."
             "I could see the prize in sight."
             k "You better not take back those words, Mion!"
+
+            "Before I knew it, the game had begun."
+            "I had to think strategicly... Where would Mion hide the treasure?"
+            "I ran down the hallway, and stopped at the end."
+            "Perhaps... she hid it under the cubby?"
+            pause 1.0 
+            "Dammit... Mion where did you hide it?"
+            "I ran back to the classroom. The cabinets in the back of the room looked suspicious."
+            "I threw open each cabinet, pulling the contents out, hoping that the treasure would be in there."
+            "There was only some gardening tools, a cardboard box, a bunch of old baseball stuff..."
+            "The marker was nowhere to be seen."
+            "Stay cool, Maebara Keiichi!"
+            "Knowing Mion, she probably wants to make sure anyone but me finds the treasure."
+            "I ran down the hall again, passing the storage room."
+            "I couldn't rule that room out, so I entered the dark room."
+            "I bet because I'm new here, Mion decided to hide the treasure in this room that was a mystery to me."
+            "I turned the corner passing a large shelf full of papers and books."
+            "Oh...? Is that...?"
+            k "Rena!"
+            re "Keiichi-kun!"
+            "Wait, I need to remember. Club rule #2."
+            k "You're not going to let me win, are you..."
+            re "Sorry Keiichi-kun. \"Always strive for victory with everything you've got!\""
+            "Of course. Rena wouldn't let me win that easily."
+            "Suddenly, from behind us ran Satoko and Rika."
+            sa "Pardon me!"
+            ri "Excuse us!"
+            "Just as soon as they had arrived, they were gone."
+            "Of course, they too were my enemies here. They were also after the treasure."
+            "I looked toward where they were running."
+            "At first it seemed like nothing was there, but then out of the corner of my eye I saw it."
+            "Nestled next to some crates was the treasure: Mion's marker!"
+            "Satoko and Rike were both sprinting toward it."
+            "Suddenly, Rika pulled ahead."
+            "She reached for the marker, as it was nearly within her grasp."
+            "Suddenly, a shrill voice cut through the air."
+            sa "Did you really think I would let you win? Rika, take this!"
+            "Satoko pulled a rope, causing a bunch of metal pots to fall from the ceiling."
+            "Another one of her master traps."
+            sa "You're still no match for my ingenious traps, my sweet, little Rika!"
+            sa "Ohohoho! Remember Rika. When I decide to win, I win with absolute certainty."
+            "Satoko was laughing with glee, clearly overjoyed that she outsmarted Rika."
+            m "Satoko, I think that's enough..."
+            "Rika got up out of the pile of pans."
+            ri "It's okay! I lost. I'm not mad about it at all."
+            ri "In fact, give me one second! I will be right back!"
+            "She ran out of the storage room only to return a few moments later holding a strange box."
+            "It was the one that was in the cabinets at the back of the classroom. I guess it was Rika's."
+            ri "Satoko, because you won, I've got you a special victory present!"
+            "Satoko blushed, not expecting this sudden act of kindness."
+            "Though only a moment later, she pulled herself together."
+            sa "That's the Rika I know. Always on top of things."
+            ri "Congratulations Satoko! Nipah!~"
+            "Satoko leaned in to see what was in the box."
+            "At that exact moment, Rika pressed a small button on the box."
+            "{b}*BAM*{\b}"
+            k "Sa-Satoko?!"
+            "Satoko flew across the room."
+            "A giant spring-loaded fist popped out of the box, socking Satoko right in the face."
+            "A clever trap that foiled the Trap Master herself. Rika is a clever girl..."
+            sa "Wha...what happened?"
+            "Satoko got up and... was that...?"
+            m "Ahahahaha! Now that's the Rika-chan we know!"
+            "Satoko clearly couldnt see what had happened."
+            k "Satoko... your face."
+            "Stamped on Satoko's face in bright red were the letters K and O."
+            "Knockout."
+            "Satoko may have won the game, but Rika had bested Satoko in the end."
+            sa "W...what is this!?"
+            ri "I prepared to fight your traps. Nipah~"
+            m "Haha! Satoko is no maych for Rika-chan."
+            "Mion and I laughed together. We turned toward Rika, expecting her to join us."
+            k "Eh...? Rena...?"
+            "She was standing right next to us, but her eyes were staring into another world."
+            "As I said her name, Rena began to focus more on the classroom."
+            re "Oh, sorry. I'm a little sleepy... Maybe all that fun wore me out!"
+            "She looked really tired."
+            m "Are you alright, Rena?"
+            "She nodded."
+            re "Yeah. I think I'm gonna go rest in the nurse's office, then go home."
+            k "Oh Rena! When you're feeling better, I'll help you out with Kenta-kun!"
+            re "Th..thanks..."
+            sa "I'm going to wash my face. It would be embarassing to go outside looking like this."
+            "Satoko went up next to Rena."
+            sa "Rena-san, I'll walk you to the infirmary."
+            re "Hauu...thank you Satoko-chan..."
+            "Rena and Satoko made their way down the hall."
+            "I could still hear them talking as they get further away."
+            re "Hauu~ The stamp mark on your face is so kyuute... I want to take you home~~"
+            sa "Wha...? How come-!?"
+            m "I guess that's it for today... Kei-chan, do you want to walk home together?"
             scene black with slowdissolve
+
+        label end_oni2:
+            stop music fadeout 5.0
+            scene black with slowdissolve
+            call screen end_oni1
+
 
 
 

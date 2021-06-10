@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 345: expected statement.
-    voice_keihua
-                ^
+The label end_oni1 is defined twice, at
+  File "game/script.rpy", line 639 and
+  File "game/script.rpy", line 924.
 
 Ren'Py Version: Ren'Py 7.4.6.1668
-Sun Jun  6 15:03:43 2021
+Tue Jun  8 18:34:14 2021

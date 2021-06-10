@@ -13,7 +13,7 @@ screen end_oni1():
         xalign 0.5
         yalign 0.75
         idle "UI/continue.png"
-        action Jump("oni1")
+        action Jump("oni2"), Hide("end_oni1")
 
 screen tip():
     imagebutton:
