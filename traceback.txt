@@ -1,22 +1,43 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script.rpy", line 921, in script
-    mi "I guess that's it for today... Kei-chan, do you want to walk home together?"
-Exception: Sayer 'mi' is not defined.
+Compiling ATL code at game/script.rpy:579
+  File "game/script.rpy", line 578, in script
+    show ri sch laugh close:
+NameError: name 'yoffset' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 921, in script
-    mi "I guess that's it for today... Kei-chan, do you want to walk home together?"
-  File "renpy/ast.py", line 680, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "renpy/ast.py", line 574, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'mi' is not defined.
+  File "game/script.rpy", line 578, in script
+    show ri sch laugh close:
+  File "renpy/ast.py", line 1191, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "renpy/ast.py", line 1161, in show_imspec
+    atl=atl)
+  File "renpy/exports.py", line 770, in show
+    sls.add(layer, img, key, zorder, behind, at_list=at_list, name=name, atl=atl, default_transform=default_transform, transient=transient)
+  File "renpy/display/core.py", line 1104, in add
+    thing._show()
+  File "renpy/display/transform.py", line 898, in _show
+    super(ATLTransform, self)._show()
+  File "renpy/display/transform.py", line 867, in _show
+    self.update_state()
+  File "renpy/display/transform.py", line 886, in update_state
+    fr = self.execute(self, self.st, self.at)
+  File "renpy/atl.py", line 535, in execute
+    block = self.compile()
+  File "renpy/atl.py", line 503, in compile
+    block = self.atl.compile(self.context)
+  File "renpy/atl.py", line 698, in compile
+    statements = [ i.compile(ctx) for i in self.statements ]
+  File "renpy/atl.py", line 946, in compile
+    value = ctx.eval(expr)
+  File "renpy/atl.py", line 260, in eval
+    return eval(expr, renpy.store.__dict__, self.context) # @UndefinedVariable
+  File "<string>", line 1, in <module>
+NameError: name 'yoffset' is not defined
 
 Windows-10-10.0.19041
 Ren'Py 7.4.6.1668
 Higurashi Gou 
-Tue Jun  8 18:36:08 2021
+Thu Jun 10 20:27:04 2021

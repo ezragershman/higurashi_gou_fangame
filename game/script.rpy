@@ -6,9 +6,11 @@ init -10 python:
     config.displayable_prefix["small"] = shrink
 
     def char(s):
-        return Transform(s, zoom=.66)
+        return Transform(s, zoom=.55)
 
     config.displayable_prefix["char"] = char
+    dpunch = Move((0, 30), (0, -30), 0.35, bounce=True, repeat=True, delay=.5)
+
 
 
 
@@ -30,164 +32,144 @@ define sh = Character("Shion", color="#49BF88")
 #Images
 
 #KEIICHI
-image ke sch happy = Image("CharactersMei/Keichi/ke_sch1")
+image ke sch happy = char(Image("images/CharactersMei/Keichi/ke_sch1.png"))
 
 #MION
-image mi cas sigh close = Image("CharactersMei/Mion/mi_cas1")
-image mi cas grin close = Image("CharactersMei/Mion/mi_cas2")
-image mi cas oh close = Image("CharactersMei/Mion/mi_cas3")
-image mi cas blank close = Image("CharactersMei/Mion/mi_cas4")
-image mi cas open close = Image("CharactersMei/Mion/mi_cas5")
-image mi cas irate close = Image("CharactersMei/Mion/mi_cas6")
-image mi cas smile close = Image("CharactersMei/Mion/mi_cas7")
-image mi cas laugh close = Image("CharactersMei/Mion/mi_cas8")
-image mi cas blank = Image("CharactersMei/Mion/mi_cas9")
-image mi cas open = Image("CharactersMei/Mion/mi_cas10")
-image mi cas irate = Image("CharactersMei/Mion/mi_cas11")
-image mi cas smile = Image("CharactersMei/Mion/mi_cas12")
-image mi cas laugh = Image("CharactersMei/Mion/mi_cas13")
-image mi cas sigh = Image("CharactersMei/Mion/mi_cas14")
-image mi cas grin = Image("CharactersMei/Mion/mi_cas15")
-image mi cas oh = Image("CharactersMei/Mion/mi_cas16")
+image mi cas sigh close = char(Image("CharactersMei/Mion/mi_cas1.png"))
+image mi cas grin close = char(Image("CharactersMei/Mion/mi_cas2.png"))
+image mi cas oh close = char(Image("CharactersMei/Mion/mi_cas3.png"))
+image mi cas blank close = char(Image("CharactersMei/Mion/mi_cas4.png"))
+image mi cas open close = char(Image("CharactersMei/Mion/mi_cas5.png"))
+image mi cas irate close = char(Image("CharactersMei/Mion/mi_cas6.png"))
+image mi cas smile close = char(Image("CharactersMei/Mion/mi_cas7.png"))
+image mi cas laugh close = char(Image("CharactersMei/Mion/mi_cas8.png"))
+image mi cas blank = char(Image("CharactersMei/Mion/mi_cas9.png"))
+image mi cas open = char(Image("CharactersMei/Mion/mi_cas10.png"))
+image mi cas irate = char(Image("CharactersMei/Mion/mi_cas11.png"))
+image mi cas smile = char(Image("CharactersMei/Mion/mi_cas12.png"))
+image mi cas laugh = char(Image("CharactersMei/Mion/mi_cas13.png"))
+image mi cas sigh = char(Image("CharactersMei/Mion/mi_cas14.png"))
+image mi cas grin = char(Image("CharactersMei/Mion/mi_cas15.png"))
+image mi cas oh = char(Image("CharactersMei/Mion/mi_cas16.png"))
 
-image mi sch sigh close = Image("CharactersMei/Mion/mi_sch1")
-image mi sch grin close = Image("CharactersMei/Mion/mi_sch2")
-image mi sch oh close = Image("CharactersMei/Mion/mi_sch3")
-image mi sch blank close = Image("CharactersMei/Mion/mi_sch4")
-image mi sch open close = Image("CharactersMei/Mion/mi_sch5")
-image mi sch irate close = Image("CharactersMei/Mion/mi_sch6")
-image mi sch smile close = Image("CharactersMei/Mion/mi_sch7")
-image mi sch laugh close = Image("CharactersMei/Mion/mi_sch8")
-image mi sch blank = Image("CharactersMei/Mion/mi_sch9")
-image mi sch open = Image("CharactersMei/Mion/mi_sch10")
-image mi sch irate = Image("CharactersMei/Mion/mi_sch11")
-image mi sch smile = Image("CharactersMei/Mion/mi_sch12")
-image mi sch laugh = Image("CharactersMei/Mion/mi_sch13")
-image mi sch sigh = Image("CharactersMei/Mion/mi_sch14")
-image mi sch grin = Image("CharactersMei/Mion/mi_sch15")
-image mi sch oh = Image("CharactersMei/Mion/mi_sch16")
+image mi sch sigh close = char(Image("CharactersMei/Mion/mi_sch1.png"))
+image mi sch grin close = char(Image("CharactersMei/Mion/mi_sch2.png"))
+image mi sch oh close = char(Image("CharactersMei/Mion/mi_sch3.png"))
+image mi sch blank close = char(Image("CharactersMei/Mion/mi_sch4.png"))
+image mi sch open close = char(Image("CharactersMei/Mion/mi_sch5.png"))
+image mi sch irate close = char(Image("CharactersMei/Mion/mi_sch6.png"))
+image mi sch smile close = char(Image("CharactersMei/Mion/mi_sch7.png"))
+image mi sch laugh close = char(Image("CharactersMei/Mion/mi_sch8.png"))
+image mi sch blank = char(Image("CharactersMei/Mion/mi_sch9.png"))
+image mi sch open = char(Image("CharactersMei/Mion/mi_sch10.png"))
+image mi sch irate = char(Image("CharactersMei/Mion/mi_sch11.png"))
+image mi sch smile = char(Image("CharactersMei/Mion/mi_sch12.png"))
+image mi sch laugh = char(Image("CharactersMei/Mion/mi_sch13.png"))
+image mi sch sigh = char(Image("CharactersMei/Mion/mi_sch14.png"))
+image mi sch grin = char(Image("CharactersMei/Mion/mi_sch15.png"))
+image mi sch oh = char(Image("CharactersMei/Mion/mi_sch16.png"))
 
 
 #RENA
-image re cas sigh close = Image("CharactersMei/Rena/re_cas9")
-image re cas grin close = Image("CharactersMei/Rena/re_cas10")
-image re cas oh close = Image("CharactersMei/Rena/re_cas11")
-image re cas blank close = Image("CharactersMei/Rena/re_cas12")
-image re cas open close = Image("CharactersMei/Rena/re_cas13")
-image re cas irate close = Image("CharactersMei/Rena/re_cas14")
-image re cas smile close = Image("CharactersMei/Rena/re_cas15")
-image re cas smile  = Image("CharactersMei/Rena/re_cas16")
-image re cas laugh close  = Image("CharactersMei/Rena/re_cas17")
-image re cas sigh  = Image("CharactersMei/Rena/re_cas18")
-image re cas grin  = Image("CharactersMei/Rena/re_cas19")
-image re cas oh  = Image("CharactersMei/Rena/re_cas20")
-image re cas blank  = Image("CharactersMei/Rena/re_cas21")
-image re cas open  = Image("CharactersMei/Rena/re_cas22")
-image re cas irate  = Image("CharactersMei/Rena/re_cas23")
+image re cas sigh close = char(Image("CharactersMei/Rena/re_cas9.png"))
+image re cas grin close = char(Image("CharactersMei/Rena/re_cas10.png"))
+image re cas oh close = char(Image("CharactersMei/Rena/re_cas11.png"))
+image re cas blank close = char(Image("CharactersMei/Rena/re_cas12.png"))
+image re cas open close = char(Image("CharactersMei/Rena/re_cas13.png"))
+image re cas irate close = char(Image("CharactersMei/Rena/re_cas14.png"))
+image re cas smile close = char(Image("CharactersMei/Rena/re_cas15.png"))
+image re cas smile  = char(Image("CharactersMei/Rena/re_cas16.png"))
+image re cas laugh  = char(Image("CharactersMei/Rena/re_cas17.png"))
+image re cas sigh  = char(Image("CharactersMei/Rena/re_cas18.png"))
+image re cas grin  = char(Image("CharactersMei/Rena/re_cas19.png"))
+image re cas oh  = char(Image("CharactersMei/Rena/re_cas20.png"))
+image re cas blank  = char(Image("CharactersMei/Rena/re_cas21.png"))
+image re cas open  = char(Image("CharactersMei/Rena/re_cas22.png"))
+image re cas irate  = char(Image("CharactersMei/Rena/re_cas23.png"))
 
-image re sch sigh close = Image("CharactersMei/Rena/re_sch9")
-image re sch grin close = Image("CharactersMei/Rena/re_sch10")
-image re sch oh close = Image("CharactersMei/Rena/re_sch11")
-image re sch blank close = Image("CharactersMei/Rena/re_sch12")
-image re sch open close = Image("CharactersMei/Rena/re_sch13")
-image re sch irate close = Image("CharactersMei/Rena/re_sch14")
-image re sch smile close = Image("CharactersMei/Rena/re_sch15")
-image re sch smile  = Image("CharactersMei/Rena/re_sch16")
-image re sch laugh close  = Image("CharactersMei/Rena/re_sch17")
-image re sch sigh  = Image("CharactersMei/Rena/re_sch18")
-image re sch grin  = Image("CharactersMei/Rena/re_sch19")
-image re sch oh  = Image("CharactersMei/Rena/re_sch20")
-image re sch blank  = Image("CharactersMei/Rena/re_sch22")
-image re sch open  = Image("CharactersMei/Rena/re_sch23")
-image re sch irate  = Image("CharactersMei/Rena/re_sch21")
+image re sch sigh close = char(Image("CharactersMei/Rena/re_sch9.png"))
+image re sch grin close = char(Image("CharactersMei/Rena/re_sch10.png"))
+image re sch oh close = char(Image("CharactersMei/Rena/re_sch11.png"))
+image re sch blank close = char(Image("CharactersMei/Rena/re_sch12.png"))
+image re sch open close = char(Image("CharactersMei/Rena/re_sch13.png"))
+image re sch irate close = char(Image("CharactersMei/Rena/re_sch14.png"))
+image re sch smile close = char(Image("CharactersMei/Rena/re_sch15.png"))
+image re sch smile  = char(Image("CharactersMei/Rena/re_sch16.png"))
+image re sch laugh  = char(Image("CharactersMei/Rena/re_sch17.png"))
+image re sch sigh  = char(Image("CharactersMei/Rena/re_sch18.png"))
+image re sch grin  = char(Image("CharactersMei/Rena/re_sch19.png"))
+image re sch oh  = char(Image("CharactersMei/Rena/re_sch20.png"))
+image re sch blank  = char(Image("CharactersMei/Rena/re_sch22.png"))
+image re sch open  = char(Image("CharactersMei/Rena/re_sch23.png"))
+image re sch irate  = char(Image("CharactersMei/Rena/re_sch21.png"))
 
 #RIKA
-image ri cas sigh close = Image("CharactersMei/Rika/ri_cas1")
-image ri cas grin close = Image("CharactersMei/Rika/ri_cas2")
-image ri cas oh close = Image("CharactersMei/Rika/ri_cas3")
-image ri cas blank close = Image("CharactersMei/Rika/ri_cas4")
-image ri cas open close = Image("CharactersMei/Rika/ri_cas5")
-image ri cas irate close = Image("CharactersMei/Rika/ri_cas6")
-image ri cas smile close = Image("CharactersMei/Rika/ri_cas7")
-image ri cas smile  = Image("CharactersMei/Rika/ri_cas8")
-image ri cas laugh close  = Image("CharactersMei/Rika/ri_cas9")
-image ri cas sigh  = Image("CharactersMei/Rika/ri_cas10")
-image ri cas grin  = Image("CharactersMei/Rika/ri_cas11")
-image ri cas oh  = Image("CharactersMei/Rika/ri_cas12")
-image ri cas blank  = Image("CharactersMei/Rika/ri_cas13")
-image ri cas open  = Image("CharactersMei/Rika/ri_cas14")
-image ri cas irate  = Image("CharactersMei/Rika/ri_cas15")
+image ri cas sigh close = char(Image("CharactersMei/Rika/ri_cas1.png"))
+image ri cas grin close = char(Image("CharactersMei/Rika/ri_cas2.png"))
+image ri cas oh close = char(Image("CharactersMei/Rika/ri_cas3.png"))
+image ri cas blank close = char(Image("CharactersMei/Rika/ri_cas4.png"))
+image ri cas open close = char(Image("CharactersMei/Rika/ri_cas5.png"))
+image ri cas irate close = char(Image("CharactersMei/Rika/ri_cas6.png"))
+image ri cas smile close = char(Image("CharactersMei/Rika/ri_cas7.png"))
+image ri cas smile  = char(Image("CharactersMei/Rika/ri_cas8.png"))
+image ri cas laugh close  = char(Image("CharactersMei/Rika/ri_cas9.png"))
+image ri cas sigh  = char(Image("CharactersMei/Rika/ri_cas10.png"))
+image ri cas grin  = char(Image("CharactersMei/Rika/ri_cas11.png"))
+image ri cas oh  = char(Image("CharactersMei/Rika/ri_cas12.png"))
+image ri cas blank  = char(Image("CharactersMei/Rika/ri_cas13.png"))
+image ri cas open  = char(Image("CharactersMei/Rika/ri_cas14.png"))
+image ri cas irate  = char(Image("CharactersMei/Rika/ri_cas15.png"))
 
-image ri sch sigh close = Image("CharactersMei/Rika/ri_sch1")
-image ri sch grin close = Image("CharactersMei/Rika/ri_sch2")
-image ri sch oh close = Image("CharactersMei/Rika/ri_sch3")
-image ri sch blank close = Image("CharactersMei/Rika/ri_sch4")
-image ri sch open close = Image("CharactersMei/Rika/ri_sch5")
-image ri sch irate close = Image("CharactersMei/Rika/ri_sch6")
-image ri sch smile close = Image("CharactersMei/Rika/ri_sch7")
-image ri sch smile  = Image("CharactersMei/Rika/ri_sch8")
-image ri sch laugh close  = Image("CharactersMei/Rika/ri_sch9")
-image ri sch sigh  = Image("CharactersMei/Rika/ri_sch10")
-image ri sch grin  = Image("CharactersMei/Rika/ri_sch11")
-image ri sch oh  = Image("CharactersMei/Rika/ri_sch12")
-image ri sch blank  = Image("CharactersMei/Rika/ri_sch13")
-image ri sch open  = Image("CharactersMei/Rika/ri_sch14")
-image ri sch irate  = Image("CharactersMei/Rika/ri_sch15")
+image ri sch sigh close = char(Image("CharactersMei/Rika/ri_sch1.png"))
+image ri sch grin close = char(Image("CharactersMei/Rika/ri_sch2.png"))
+image ri sch oh close = char(Image("CharactersMei/Rika/ri_sch3.png"))
+image ri sch blank close = char(Image("CharactersMei/Rika/ri_sch4.png"))
+image ri sch open close = char(Image("CharactersMei/Rika/ri_sch5.png"))
+image ri sch irate close = char(Image("CharactersMei/Rika/ri_sch6.png"))
+image ri sch smile close = char(Image("CharactersMei/Rika/ri_sch7.png"))
+image ri sch smile  = char(Image("CharactersMei/Rika/ri_sch8.png"))
+image ri sch laugh close  = char(Image("CharactersMei/Rika/ri_sch9.png"))
+image ri sch sigh  = char(Image("CharactersMei/Rika/ri_sch10.png"))
+image ri sch grin  = char(Image("CharactersMei/Rika/ri_sch11.png"))
+image ri sch oh  = char(Image("CharactersMei/Rika/ri_sch12.png"))
+image ri sch blank  = char(Image("CharactersMei/Rika/ri_sch13.png"))
+image ri sch open  = char(Image("CharactersMei/Rika/ri_sch14.png"))
+image ri sch irate  = char(Image("CharactersMei/Rika/ri_sch15.png"))
 
 #SATOKO
-image sa cas sigh close = Image("CharactersMei/Satoko/sa_cas9")
-image sa cas grin close = Image("CharactersMei/Satoko/sa_cas10")
-image sa cas oh close = Image("CharactersMei/Satoko/sa_cas11")
-image sa cas blank close = Image("CharactersMei/Satoko/sa_cas12")
-image sa cas open close = Image("CharactersMei/Satoko/sa_cas13")
-image sa cas irate close = Image("CharactersMei/Satoko/sa_cas14")
-image sa cas smile close = Image("CharactersMei/Satoko/sa_cas15")
-image sa cas smile  = Image("CharactersMei/Satoko/sa_cas16")
-image sa cas sigh  = Image("CharactersMei/Satoko/sa_cas18")
-image sa cas grin  = Image("CharactersMei/Satoko/sa_cas19")
-image sa cas oh  = Image("CharactersMei/Satoko/sa_cas20")
-image sa cas blank  = Image("CharactersMei/Satoko/sa_cas21")
-image sa cas open  = Image("CharactersMei/Satoko/sa_cas22")
-image sa cas irate  = Image("CharactersMei/Satoko/sa_cas17")
-image sa cas sneak  = Image("CharactersMei/Satoko/sa_cas2")
+image sa cas sigh close = char(Image("CharactersMei/Satoko/sa_cas9.png"))
+image sa cas grin close = char(Image("CharactersMei/Satoko/sa_cas10.png"))
+image sa cas oh close = char(Image("CharactersMei/Satoko/sa_cas11.png"))
+image sa cas blank close = char(Image("CharactersMei/Satoko/sa_cas12.png"))
+image sa cas open close = char(Image("CharactersMei/Satoko/sa_cas13.png"))
+image sa cas irate close = char(Image("CharactersMei/Satoko/sa_cas14.png"))
+image sa cas smile close = char(Image("CharactersMei/Satoko/sa_cas15.png"))
+image sa cas smile  = char(Image("CharactersMei/Satoko/sa_cas16.png"))
+image sa cas sigh  = char(Image("CharactersMei/Satoko/sa_cas18.png"))
+image sa cas grin  = char(Image("CharactersMei/Satoko/sa_cas19.png"))
+image sa cas oh  = char(Image("CharactersMei/Satoko/sa_cas20.png"))
+image sa cas blank  = char(Image("CharactersMei/Satoko/sa_cas21.png"))
+image sa cas open  = char(Image("CharactersMei/Satoko/sa_cas22.png"))
+image sa cas irate  = char(Image("CharactersMei/Satoko/sa_cas17.png"))
+image sa cas sneak  = char(Image("CharactersMei/Satoko/sa_cas2.png"))
 
 
 
-image sa sch sigh close = Image("CharactersMei/Satoko/sa_sch9")
-image sa sch grin close = Image("CharactersMei/Satoko/sa_sch10")
-image sa sch oh close = Image("CharactersMei/Satoko/sa_sch11")
-image sa sch blank close = Image("CharactersMei/Satoko/sa_sch12")
-image sa sch open close = Image("CharactersMei/Satoko/sa_sch13")
-image sa sch irate close = Image("CharactersMei/Satoko/sa_sch14")
-image sa sch smile close = Image("CharactersMei/Satoko/sa_sch15")
-image sa sch smile  = Image("CharactersMei/Satoko/sa_sch16")
-image sa sch sneak  = Image("CharactersMei/Satoko/sa_sch17")
-image sa sch sigh  = Image("CharactersMei/Satoko/sa_sch18")
-image sa sch grin  = Image("CharactersMei/Satoko/sa_sch19")
-image sa sch oh  = Image("CharactersMei/Satoko/sa_sch20")
-image sa sch blank  = Image("CharactersMei/Satoko/sa_sch21")
-image sa sch open  = Image("CharactersMei/Satoko/sa_sch22")
-image sa sch irate  = Image("CharactersMei/Satoko/sa_sch23")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+image sa sch sigh close = char(Image("CharactersMei/Satoko/sa_sch9.png"))
+image sa sch grin close = char(Image("CharactersMei/Satoko/sa_sch10.png"))
+image sa sch oh close = char(Image("CharactersMei/Satoko/sa_sch11.png"))
+image sa sch blank close = char(Image("CharactersMei/Satoko/sa_sch12.png"))
+image sa sch open close = char(Image("CharactersMei/Satoko/sa_sch13.png"))
+image sa sch irate close = char(Image("CharactersMei/Satoko/sa_sch14.png"))
+image sa sch smile close = char(Image("CharactersMei/Satoko/sa_sch15.png"))
+image sa sch smile  = char(Image("CharactersMei/Satoko/sa_sch16.png"))
+image sa sch sneak  = char(Image("CharactersMei/Satoko/sa_sch17.png"))
+image sa sch sigh  = char(Image("CharactersMei/Satoko/sa_sch18.png"))
+image sa sch grin  = char(Image("CharactersMei/Satoko/sa_sch19.png"))
+image sa sch oh  = char(Image("CharactersMei/Satoko/sa_sch20.png"))
+image sa sch blank  = char(Image("CharactersMei/Satoko/sa_sch21.png"))
+image sa sch open  = char(Image("CharactersMei/Satoko/sa_sch22.png"))
+image sa sch irate  = char(Image("CharactersMei/Satoko/sa_sch23.png"))
 
 
 
@@ -309,6 +291,7 @@ label start:
             "Mom" "You haven't skipped breakfast once since we moved to Hinamizawa. I'm so proud of you."
             scene black with dissolve
             "Let me explain."
+            show ke sch happy with dissolve
             "My name is Maebara Keiichi."
             "It has been three weeks since my family moved to the small village of Hinamizawa, and, honestly, I can't believe it belongs to the same country as the city I used to live in."
             "In fact, I have a hard time believing that it belongs to the same time period..."
@@ -346,24 +329,27 @@ label start:
 
             scene kei_house_sch with dissolve
 
-
+            show re sch laugh with dissolve
             voice rena_ohayo
             re "Keiichi-kun! Good morning!"
 
             voice kei_yorena
             k "Why are you always here so early? You know you can sleep in every so often."
 
+            show re sch open with dissolve
             voice rena_unn
             re "But if I slept in, I would keep you waiting."
 
             voice kei_chee
             k "I wouldn't wait for you."
 
+            show re sch sigh with dissolve
             voice re_mate
             re "W-wha...? Keiichi-kun is so mean!"
 
             voice kei_jajaja    
             k "I'd leave you in the dust and kick you to the curb."
+
 
             voice rena_squeal
             re "Keiichi-kun! But I always wait for you..."
@@ -371,6 +357,7 @@ label start:
             voice kei_nah
             k "Don't care. I'd ditch you in a heartbeat if you were late."
 
+            show re sch sigh close
             voice rena_cryout
             re "Why are you being so cold to me, Keiichi-kun? Why?"
 
@@ -380,12 +367,14 @@ label start:
             voice kei_giggle
             k "Just kidding. I would never ditch you."
 
+            show re sch sigh with dissolve
             voice re_hh
             re "Th-thanks."
 
             voice kei_re2
             k "Yep. I would definitely wait for you. No matter how long it took, I would wait for you forever, Rena-chan."
 
+            show re sch open
             voice rena_hau
             re "F...f...forever...? Hauuuuu~"
 
@@ -393,9 +382,9 @@ label start:
 
             scene hi2_day with dissolve
             
- 
+            show re sch smile at halfright with dissolve
             pause 2.0
-            show m school happy1 with dissolve
+            show mi sch smile with dissolve
 
             voice mion_ohayo
             m "There you all are! You guys sure took your sweet time getting to me! Any longer and I would have left without you!"
@@ -409,12 +398,15 @@ label start:
 
             "This perky girl is Sonozaki Mion. She's my senior and pretty much the leader of our class."
 
+            show re sch laugh at halfright with dissolve
             voice rena_ohayo
             re "Good morning Mii-chan!"
 
+            show mi sch laugh with dissolve
             voice mion_ohayo
             m "Good morning Rena~!"
 
+            show mi sch grin with dissolve
             voice mion_yahokei
             m "Long time no see, Kei-chan! How many years has it been?"
 
@@ -424,37 +416,43 @@ label start:
             "Mion leaned in to get a good look at me."
             
             
-            show m school happy1:
+            show mi sch grin:
                 ease .5 zoom 3.0 yoffset 1000 #moves right 100px, bottom 50px. set to 0 when you return later.
                 
             
             voice mion_mn
             m "You seem to be the same Kei-chan as when you left a few days ago..."
             pause 0.75
-            show m school happy1:
+            show mi sch open:
                 ease .25 zoom 1 yoffset 0
+            
             voice mion_ahque
             m "Hm? What's this?"
             pause 1.0
+
+            show mi sch laugh close with dissolve
             voice mion_laughcute
             m "Kei-chan, I see that your buddy is quite perky this morning."
             voice kei_giggle 
             k "Yes, yes.{fast} He's always getting perky in the morning. It's actually a real pain. Wanna try saying hi to him?"
 
-            show re school2 eh at right with dissolve                          
+            show re sch open at halfright with dissolve                          
             voice rena_haaaaaaahhhhhh
             re "Waa... What are you talking about? Mii-chan, Keiichi-kun?!"
 
             "As usual, Rena couldn't keep up with our early morning, crude banter. I can't blame her though. Most people would also be confused by Mion's morning antics."
 
+            show mi sch grin with dissolve
             voice mion_do
-            m "So! How was your trip, Kei-chan? Did you find that think I asked you about?"
+            m "So! How was your trip, Kei-chan? Did you find that thing I asked you about?"
+            show mi sch laugh with dissolve
             voice mion_laughcute
             m "You know, that Western game catalog I wanted?"
 
             voice kei_ano
             k "I went back to Tokyo for a funeral, so I was busy the whole time. I didn't really have time to look around for toy shops."
 
+            show mi sch smile with dissolve
             voice mion_kyukyukyu
             m "Tsk tsk tsk... Toy shops are nothing like hobby shops. Western stuff in general is impossible to find in these parts, ya know..."
 
@@ -465,71 +463,81 @@ label start:
 
             scene school_hall with dissolve
             "Mion reached out to open the classroom door but hesited for a moment."
-            show m school happy1 with dissolve
+            show mi sch smile with dissolve
             voice mion_laughcute
             m "Well, well... hehehe... After you, Kei-chan..."
 
             voice kei_ungh
             k "Are you trying to test my skills? I won't be defeated this time! Rena, get back!"
 
-            show re school2 eh at right with dissolve 
+            show re sch open at halfright with dissolve 
             voice rena_squeal
             re "Huh..? What's going on guys?"
 
             voice kei_hua
             k "Stay back Rena! Its her!! She's at it again!"
 
+            show re sch open close at halfright with dissolve
             voice rena_uuu
             re "Eh..? By she, you mean...?"
 
-            k "Look over there! Your trap is way too obvious, Houjo Satoko!!!!"
+            show re sch open at halfright
+            k "Look over there! Your trap is way too obvious, Houjo Satoko!!!!" with dpunch
             
             "I pointed to the top of the doorway."
             "Suspended in the crack at the top of the door was an eraser."
             "If I had recklessly opened the door, it surely would have been my demise."
 
 
+            show mi sch laugh with dissolve
             m "Guess the game is on again today."
             m "Kei-chan keeps getting better and better at spotting Satoko-chan's traps."
             m "You may even defeat her today."
 
-            k "No!" 
-            k "Satoko isn't this naive."
-            k "There must be some trick involved!"
+            
+            k "No!" with vpunch
+            k "Satoko isn't this naive." with vpunch
+            k "There must be some trick involved!" with vpunch
             "I leaned in to get a closer look at the eraser."
             "To my eyes, it seemed to be an ordinary eraser."
             "When I first transfered here, Satoko had trapped the doorway in a similar manner to the way she had today."
             "However, the eraser that fell on my was not an ordinary eraser."
             "Satoko had put rocks in the eraser to make it heavier. Thanks to her, I left my first day at a new school covered in bruises."
 
+            show re sch smile at halfright with dissolve
             re "Why don't you just stand back and open the door?"
+            show re sch smile close at halfright with dissolve
             re "I wonder if you can dodge the eraser, I wonder...?"
 
+
             k "Rena isn't thinking hard enough."
+            show re sch open at halfright
             k "The eraser is only one piece of Satoko's master trap."
             k "It is a red herring, a mere distraction meant to lure me into missing the greater threats!"
+
 
             "Rena looked dumbfounded and Mion simply laughed."
 
             m "Hehehe... I wonder who will win today...?"
+            show mi sch grin with dissolve
             m "Kei-chan is in top form this morning."
 
             "I searched the rest of the door, looking for anything else that seemed remotely suspicious."
             "That's when I spotted it: the glint of thumbtacks taped to the inside of the door-handle."
             "Had I not found them, Satoko would surely have left me wounded and defeated, however, today was my day as the victor."
 
-            k "Aha! Checkmate Satoko!"
-            k "The real trap is the thumbtackes in the door-handle!"
+            k "Aha! Checkmate Satoko!" with vpunch
+            k "The real trap is the thumbtackes in the door-handle!" with vpunch
 
             "Pulling the end of the tape, I masterfully stripped away all of the thumbtacks from the inside of the door-handle."
 
-            k "You may have created a brilliant combination trap, but the mind of Maebara Keiichi is far superior!"
+            k "You may have created a brilliant combination trap, but the mind of Maebara Keiichi is far superior!" with vpunch
 
             "Excited to see the look on Satoko's face when she realized I had won, I rushed into the classroom at full speed."
             scene classroom with dissolve
             pause 1.0
 
-            "{i}*twang*{/i}"
+            "{i}*twang*{/i}" with vpunch
 
             pause 1.0
 
@@ -537,7 +545,7 @@ label start:
 
             pause 1.0
 
-            k "Waaaaaaaaaaaahhhhhhhh!!!???"
+            k "Waaaaaaaaaaaahhhhhhhh!!!???" with vpunch
 
             pause 1.0 
 
@@ -545,66 +553,92 @@ label start:
 
             pause 1.0
 
-            "{b}{i}*CRASH*{/i}{/b}"
+            "{b}{i}*CRASH*{/i}{/b}" with vpunch
 
-            show sa school happy1 at right with dissolve
+            show sa sch grin at halfright with dissolve
 
             sa "Ohohohoho! What do we have here?"
 
             "There she is. Houjo Satoko, the cheeky little trap mistress herself."
 
+            show sa sch smile at halfright with dissolve
             sa "Good morning to you, Keiichi-san."
             sa "Causing a ruckus at this early hour?"
             
             k "I'm impressed, Satoko. This was a step up from your ordinary traps!"
             
+            show sa sch sneak at halfright with dissolve
             sa "I haven't the faintest idea as to what you are refering to."
 
-            k "Why, you little..."
+            k "Why, you little..." with vpunch
 
             "I tried to stand up, but I had landed on my knee when I fell. I grunted involuntarily at the pain."
             "I felt a small hand rest and pat my head."
 
+
+            show ri sch laugh close at offscreenleft
+            show ri sch laugh close:
+                ease .25 zoom 3.0  yoffset 900 xoffset 500
             ri "Pain, pain, go away!~"
 
             "The one petting my head is Furude Rika. Unlike Satoko, she is an absolute angel."
-
+            show mi sch smile at left behind ri
+            show re sch smile at right
             re "Good morning, Rika-chan!"
 
+            show ri sch smile:
+                ease .5 zoom 1.0 yoffset 0 xoffset 500
+
             ri "Good morning, Rena!"
+            show ri sch laugh close with dissolve
             ri "Good morning, everyone!"
 
             k "Wow, Rika-chan is a really good girl."
             k "The exact opposite of a certain someone."
 
-            sa "Lies! Slander! Murder!"
+            show sa sch irate close at halfright with dissolve
+            sa "Lies! Slander! Murder!" with vpunch
+            show sa sch irate:
+                ease .5 zoom 2.0 xoffset -100 yoffset 400
             sa "You have no proof to back up any of your heinous words..."
 
             "I picked up Satoko by her uniform. She's only in middle school, so its like lifting a child."
 
-            k "You better beware Satoko."
-            k "My finger flick has been known to split plywood."
+            k "You better beware Satoko." with vpunch
+            k "My finger flick has been known to split plywood." with vpunch
 
-            sa "Ehhhh! Unhand me you brute!!!"
+            show sa blank with dissolve
+            sa "Ehhhh! Unhand me you brute!!!" with vpunch
 
             k "Hey, quiet down, people will get the wrong idea!"
 
-            sa "Waaaaaaaaahhhh!"
+            show sa irate:
+                ease .25 zoom 1.0 xoffset 0 yoffset 0
+            sa "Waaaaaaaaahhhh!" with vpunch
 
             "Satoko started crying."
             "Rika, being the sweet girl she is, walked over to comfort her."
 
+            show ri sch smile:
+                ease .5 xoffset 750
             ri "No need to cry, Satoko!"
+            show ri laugh close with dissolve
             ri "Fight-on!"
 
             ri "And next time, you will set up an even more amazing trap."
             ri "Then you can squich Keiichi like a pancake!~ Nipah!~"
 
-            k "Gah!! Being betrayed by an angel hurts so much more..."
+            k "Gah!! Being betrayed by an angel hurts so much more..." with vpunch
 
+
+            show re laugh with dissolve
             re "Hauuuu!!"
+            show re laugh:
+                ease .5 xoffset -45
             re "Satoko-chan is crying... but it's soo kyuute!!!"
-            re "I wanna take her home!! Hauuuuuuuuuuuu!!!!!"
+            show re laugh:
+                ease .25 xoffset -95
+            re "I wanna take her home!! Hauuuuuuuuuuuu!!!!!" with vpunch
 
             #end scene wipe to Keiichi's Bedroom
             window hide
@@ -617,22 +651,29 @@ label start:
             scene mae_door_dusk with dissolve
             "Later that evening I recieved a knock on the door from Rena and Mion."
 
+            show re sch smile at center with dissolve
+            show mi sch smile at halfleft with dissolve
             re "Hey Keiichi-kun!"
+            show re close with dissolve
             re "Tomorrow, Mii-chan and Rena were thinking that we'd like to show you all around Hinamizawa!"
 
+            show mi grin with dissolve
             m "You'll be joining us, of course, right, Kei-chan?"
 
             k "I'll check my schedule."
 
+            show mi open with dissolve
             m "But you're being invited by two girls!!!"
 
+            show re sch open with dissolve
             re "Keiichi-kun, I wonder are you free? Are you?"
 
             k "I am."
-
+            show mi irate
             m "Woah woah! Why do you treat Rena-chan differently than me!????"
 
             "Mion and Rena left soon after extending the invitation."
+            scene kei_room_lamp with dissolve
             "I thought it was really nice of them to give me a tour of Hinamizawa."
             "I knew how to get to school pretty well, but the rest of the village was a complete mystery."
             

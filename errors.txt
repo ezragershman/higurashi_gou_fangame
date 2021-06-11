@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-The label end_oni1 is defined twice, at
-  File "game/script.rpy", line 639 and
-  File "game/script.rpy", line 924.
+File "game/script.rpy", line 665: expected statement.
+    shoe re oh with dissolve
+               ^
 
 Ren'Py Version: Ren'Py 7.4.6.1668
-Tue Jun  8 18:34:14 2021
+Thu Jun 10 20:48:32 2021
