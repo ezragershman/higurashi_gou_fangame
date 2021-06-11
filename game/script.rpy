@@ -1095,11 +1095,85 @@ label start:
             m "I guess that's it for today... Kei-chan, do you want to walk home together?"
             scene black with slowdissolve
 
+            m "A Kenta-kun doll?"
+            m "That's right up Rena's alley."
+
+            k "Hey, Mion? You know about that dam construction site?"
+            k "Did anything ever happen there?"
+
+            m "Sure did! A whole war, basically."
+            m "We demanded for the construction to stop, hosted sit-ins, and held big protests."
+
+            k "Makes sense that everyone would fight. The dam would've flooded your homes."
+
+            m "The government cronies were dead set on seeing the project through."
+            m "Once they found out they couldn't bribe their way to victory, they resorted to some really nasty tactics."
+
+            k "I'm suprised the villagers still ended up winning, especially against te government."
+
+            m "The mayor and all of the village bigwigs signed petitions. They went to Tokyo and struck deals with politicians."
+            m "Thanks to all their hard work, the dam project was finished. The sweet taste of victory was ours."
+
+
+            k "There wasn't, like, any violence or anything, right?"
+            k "No one got assaulted...or murdered?"
+
+            m "Of course not."
+
+            m "Okay, see you tomorrow!"
         label end_oni2:
             stop music fadeout 5.0
             scene black with slowdissolve
             call screen end_oni1
 
+        label oni3:
+            "I am at the dump wowee"
+
+
+            k "There she is."
+            k "Yo, Rena! Working up a sweat?"
+
+            re "Keiichi-kun?!"
+            re "Why are you here?!"
+
+            k "I recieved word of an emergency in the area and rushed to the scene!"
+            k "Where's the man in need of grave assistance?!"
+
+            re "Huh? What? An emergency?!"
+
+            k "Yes! I got a report about a Kenta-kun doll buried deep in a pile of trash?"
+
+            re "O-oh! C'mon Keiichi-kun, you scared me!"
+
+            k "I'm just messing around. I promised I'd help, remember?"
+
+            re "Eh...? You came all the way here for me...? Hauu..."
+
+
+            k "So where is Kenta-kun at?"
+
+            re "Over here!"
+
+
+            re "Right there. See him underneath?"
+
+            k "You were really going to try to get him out from there all by yourself?"
+            k "Here, get out of the way."
+
+
+            k "Man... I wish we had an axe or a saw or something..."
+
+            re "It's fine Keiichi-kun."
+
+            k "No worries! If Rena-chan wants it, I'm happy to help."
+
+
+
+            k "O-okay, let's take a break."
+
+            re "H-hey, let me go get us some barley tea!"
+            re "My house is super close!"
+            re "Stay there, okay!"
 
 
 
